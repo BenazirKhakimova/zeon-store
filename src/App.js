@@ -1,10 +1,14 @@
 import "./App.css";
 import Routing from "./Routing";
+import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
+import ProductsContextProvider from "./context/productContext";
 
 function App() {
   return (
-    <div className="App">
-      <Routing />
+    <div style={{ backgroundColor: "#F8F8F8" }} className="App">
+      <ProductsContextProvider>
+        <Routing />
+      </ProductsContextProvider>
     </div>
   );
 }

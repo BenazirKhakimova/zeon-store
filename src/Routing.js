@@ -6,6 +6,10 @@ import News from "./components/News/News";
 import Cart from "./components/Cart/Cart";
 import Favourites from "./components/Favourites/Favourites";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Help from "./components/Help/Help";
+import PublicOffer from "./components/PublicOffer/PublicOffer";
 const Routing = () => {
   let ROUTES = [
     {
@@ -15,16 +19,18 @@ const Routing = () => {
     },
     {
       path: "/about",
+      ru: "О нас",
       element: <AboutUs />,
       id: 2,
     },
     {
-      path: "/collection",
+      path: "/Collection",
       element: <Collection />,
       id: 3,
     },
     {
       path: "/news",
+      ru: "Новости",
       element: <News />,
       id: 4,
     },
@@ -38,14 +44,25 @@ const Routing = () => {
       element: <Favourites />,
       id: 6,
     },
+    {
+      path: "/help",
+      element: <Help />,
+      id: 7,
+    },
+    {
+      path: "/offer",
+      element: <PublicOffer />,
+    },
   ];
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         {ROUTES.map((item) => (
           <Route exact key={item.id} path={item.path} element={item.element} />
         ))}
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
