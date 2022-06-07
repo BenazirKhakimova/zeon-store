@@ -3,7 +3,6 @@ import { Card, Empty, Pagination } from "antd";
 import "./Collection.css";
 import { Link, useSearchParams } from "react-router-dom";
 
-import img1 from "../../../src/assets/collection/image1.png";
 import { contextProduct } from "../../context/productContext";
 
 const Collection = () => {
@@ -48,7 +47,7 @@ const Collection = () => {
             >
               <img className="collec-img" src={item.img} alt="img" />
               <h3 id="collec-title">{item.title}</h3>
-              <Link to="/collection/:id">
+              <Link to={`${item.link}`}>
                 <button className="collec-btn">Смотреть все</button>
               </Link>
             </Card>
@@ -66,7 +65,7 @@ const Collection = () => {
           </div>
         )}
       </div>
-      <divs className="container pagination">
+      <div className="container pagination">
         <Pagination
           total={+productsCount}
           current={+page}
@@ -77,7 +76,7 @@ const Collection = () => {
             setLimit(limit);
           }}
         />
-      </divs>
+      </div>
     </>
   );
 };

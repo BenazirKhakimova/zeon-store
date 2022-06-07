@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 import Help from "./components/Help/Help";
 import PublicOffer from "./components/PublicOffer/PublicOffer";
 const Routing = () => {
-  let ROUTES = [
+  const ROUTES = [
     {
       path: "/",
       element: <Home />,

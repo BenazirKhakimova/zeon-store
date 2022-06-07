@@ -315,81 +315,97 @@
     {
       "img": "https://i.postimg.cc/sfpWDmfd/image1.png",
       "title": "Коллекция зима 2022",
+      "link": "/winter",
       "id": 1
     },
     {
       "img": "https://i.postimg.cc/xTzj6zLg/image2.png",
       "title": "Для выезда на природу",
+      "link": "/goout",
       "id": 2
     },
     {
       "img": "https://i.postimg.cc/Zn9Yt92b/image3.png",
       "title": "Юбки",
+      "link": "/skirts",
       "id": 3
     },
     {
       "img": "https://i.postimg.cc/zBGX72kR/image4.png",
       "title": "Коллекция лето 2020",
+      "link": "/summer",
       "id": 4
     },
     {
       "img": "https://i.postimg.cc/xCpj4Gsp/image5.png",
       "title": "Коллекция лето 2020",
+      "link": "/summer",
       "id": 5
     },
     {
       "img": "https://i.postimg.cc/d3zsqsc8/image6.png",
       "title": "Платья",
+      "link": "/dresses",
       "id": 6
     },
     {
       "img": "https://i.postimg.cc/sfpWDmfd/image1.png",
-      "title": "Коллекция лето 2020",
+      "title": "Коллекция зима 2020",
+      "link": "/winter",
       "id": 7
     },
     {
       "img": "https://i.postimg.cc/Zn9Yt92b/image3.png",
       "title": "Юбки",
+      "link": "/skirts",
       "id": 8
     },
     {
-      "img": "https://i.postimg.cc/sfpWDmfd/image2.png",
-      "title": "Для выезда на природу",
+      "img": "https://i.postimg.cc/sfpWDmfd/image1.png",
+      "title": "Коллекция зима 2020",
+      "link": "/winter",
       "id": 9
     },
     {
       "img": "https://i.postimg.cc/xCpj4Gsp/image5.png",
       "title": "Коллекция лето 2020",
+      "link": "/summer",
       "id": 10
     },
     {
       "img": "https://i.postimg.cc/Zn9Yt92b/image2.png",
       "title": "Юбки",
+      "link": "/skirts",
       "id": 11
     },
     {
       "img": "https://i.postimg.cc/d3zsqsc8/image6.png",
       "title": "Платья",
+      "link": "/dresses",
       "id": 12
     },
     {
       "img": "https://i.postimg.cc/Zn9Yt92b/image2.png",
-      "title": "Коллекция лето 2020",
+      "title": "Юбки",
+      "link": "/skirts",
       "id": 13
     },
     {
       "img": "https://i.postimg.cc/zBGX72kR/image2.png",
       "title": "Коллекция лето 2020",
+      "link": "/summer",
       "id": 14
     },
     {
       "img": "https://i.postimg.cc/xTzj6zLg/image2.png",
       "title": "Для выезда на природу",
+      "link": "/goout",
       "id": 13
     },
     {
       "img": "https://i.postimg.cc/Zn9Yt92b/image3.png",
       "title": "Юбки",
+      "link": "/skirts",
       "id": 16
     }
   ]
