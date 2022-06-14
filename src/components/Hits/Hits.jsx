@@ -2,12 +2,15 @@ import { Spin } from "antd";
 import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
+import Also from "../Also/Also";
 import Card from "../Card/Card";
 import "./Hits.css";
 const Hits = () => {
   const { getProducts, products } = useContext(contextProduct);
   const [searchParams, setSearchParams] = useSearchParams();
-  const [noOfElement, setNoOfElement] = useState(8);
+  const [items, setItems] = useState(8);
+  console.log("products", products);
+
   useEffect(() => {
     getProducts();
   }, []);
@@ -22,10 +25,9 @@ const Hits = () => {
     getProducts();
   }, [searchParams]);
 
-  const slice = products.slice(0, noOfElement);
-
+  const slice = products.slice(0, items);
   const loadMore = () => {
-    setNoOfElement(noOfElement + noOfElement);
+    setItems(items + items);
   };
   return (
     <>
@@ -38,7 +40,11 @@ const Hits = () => {
           : null}
       </div>
       <div className="also-wrapper">
-        <button onClick={() => loadMore()}>Ещё</button>
+        {slice.length[-1] ? null : (
+          <button className="load-more" onClick={() => loadMore()}>
+            Ещё
+          </button>
+        )}
       </div>
     </>
   );

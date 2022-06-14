@@ -2,26 +2,44 @@ import axios from "axios";
 import React, { useReducer } from "react";
 import {
   CASES_GET_COLLECTIONS,
+  CASES_GET_CONTACTS,
+  CASES_GET_DATA,
   CASES_GET_NEWS,
+  CASES_GET_ONE_PRODUCT,
   CASES_GET_PRODUCTS,
 } from "../helpers/cases";
-import { COLLECTIONS_API, NEWS_API, PRODUCTS_API } from "../helpers/consts";
+import {
+  COLLECTIONS_API,
+  CONTACTS_API,
+  DATA_API,
+  NEWS_API,
+  PRODUCTS_API,
+} from "../helpers/consts";
 
 export const contextProduct = React.createContext();
 
 const INIT_STATE = {
   products: [],
+  oneProduct: null,
   news: [],
   collections: [],
+  data: [],
   productsCount: 0,
+  contacts: [],
 };
 
 const reducer = (state = INIT_STATE, action) => {
   switch (action.type) {
+    case CASES_GET_CONTACTS:
+      return {
+        ...state,
+        contacts: action.payload.data,
+      };
     case CASES_GET_PRODUCTS:
       return {
         ...state,
         products: action.payload.data,
+        productsCount: action.payload.headers["x-total-count"],
       };
     case CASES_GET_NEWS:
       return {
@@ -33,6 +51,16 @@ const reducer = (state = INIT_STATE, action) => {
         ...state,
         collections: action.payload.data,
         productsCount: action.payload.headers["x-total-count"],
+      };
+    case CASES_GET_DATA:
+      return {
+        ...state,
+        data: action.payload.data,
+      };
+    case CASES_GET_ONE_PRODUCT:
+      return {
+        ...state,
+        data: action.payload.data,
       };
     default:
       return state;
@@ -46,6 +74,14 @@ const ProductsContextProvider = ({ children }) => {
     let result = await axios(PRODUCTS_API + window.location.search);
     dispatch({
       type: CASES_GET_PRODUCTS,
+      payload: result,
+    });
+  };
+
+  const getOneProduct = async () => {
+    let result = await axios(PRODUCTS_API);
+    dispatch({
+      type: CASES_GET_ONE_PRODUCT,
       payload: result,
     });
   };
@@ -65,20 +101,40 @@ const ProductsContextProvider = ({ children }) => {
       payload: result,
     });
   };
+  const getData = async () => {
+    let result = await axios(DATA_API);
+    dispatch({
+      type: CASES_GET_DATA,
+      payload: result,
+    });
+  };
+  const getContacts = async (id) => {
+    let result = await axios(`CONTACTS_API/${id}`);
+    dispatch({
+      type: CASES_GET_CONTACTS,
+      payload: result,
+    });
+  };
   return (
     <contextProduct.Provider
       value={{
         products: state.products,
         news: state.news,
         collections: state.collections,
+        contacts: state.contacts,
         productsCount: state.productsCount,
+        data: state.data,
         getProducts,
         getNews,
         getCollections,
+        getContacts,
+        getData,
+        getOneProduct,
       }}
     >
       {children}
     </contextProduct.Provider>
   );
 };
+
 export default ProductsContextProvider;

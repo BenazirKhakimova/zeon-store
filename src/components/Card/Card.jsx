@@ -1,33 +1,43 @@
 import React from "react";
 import "./Card.css";
-import img1 from "../../../src/assets/img/new/Rectangle 491.png";
 import { Link } from "react-router-dom";
-import fav from "../../../src/assets/icon/favourites.png";
+
 const Card = ({ item }) => {
+  let res;
+  if (item.discaunt) {
+    res = (item.price % 100) * item.discaunt;
+  }
+
   return (
     <div className="container">
       <div className="card">
-        <Link to={"./details/:id"}>
-          <img id="img-rel" src={img1} alt="" />
+        <Link to={"/ditails/:id"}>
+          <img id="img-rel" src={item.image1} alt="" />
         </Link>
-        <img id="img-fav" src={fav} alt="" />
+        {/* <img id="img-fav" src={fav} alt="" /> */}
         <div className="card-footer">
-          <span>Вечернее платье</span>
+          <span>{item.name}</span>
 
-          <div id="price-wrapper">
-            <span id="price">1 365 р </span>
-            <span id="discount"> 2 730 c.</span>
+          <div>
+            {item.discaunt ? (
+              <div id="price-wrapper">
+                <span id="price">{res + " p"}</span>
+                <span id="discount">{item.price + " p"}</span>
+              </div>
+            ) : (
+              <span id="price">{item.price + " p"}</span>
+            )}
           </div>
-          <span id="size">Размер: 42-50</span>
+          <span id="size">{item.size}</span>
           <div className="color-wrapper">
-            <div className="color-1 size-circle"></div>
-            <div className="color-2 size-circle"></div>
-            <div className="color-3 size-circle"></div>
-            <div className="color-4 size-circle"></div>
-            <div className="color-5 size-circle"></div>
-            <div className="color-6 size-circle"></div>
-            <div className="color-7 size-circle"></div>
-            <div className="color-8 size-circle"></div>
+            <div id={`${item.color1}`} className="size-circle"></div>
+            <div id={`${item.color2}`} className="size-circle"></div>
+            <div id={`${item.color3}`} className="size-circle"></div>
+            <div id={`${item.color4}`} className="size-circle"></div>
+            <div id={`${item.color5}`} className="size-circle"></div>
+            <div id={`${item.color6}`} className="size-circle"></div>
+            <div id={`${item.color7}`} className="size-circle"></div>
+            <div id={`${item.color8}`} className="size-circle"></div>
           </div>
         </div>
       </div>

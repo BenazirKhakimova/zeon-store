@@ -1,6 +1,8 @@
+.App {
+  background-color: #f8f8f8;
+}
 .container {
   max-width: 1168px;
-  width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -17,4 +19,18 @@
   line-height: 29px;
   color: #393939;
   margin-top: 32px;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  margin-bottom: 16px;
 }

@@ -1,11 +1,12 @@
 import "./App.css";
 import Routing from "./Routing";
-import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 import ProductsContextProvider from "./context/productContext";
+import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#F8F8F8" }} className="App">
+    <div className="App">
       <ProductsContextProvider>
         <Routing />
       </ProductsContextProvider>

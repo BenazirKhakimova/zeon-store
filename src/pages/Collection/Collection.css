@@ -1,0 +1,49 @@
+.collec-img {
+  width: 286px;
+  height: 330px;
+  position: relative;
+}
+.ant-card-body {
+  padding: 0 !important;
+}
+.collec-btn {
+  padding: 12px 50px 12px 75px;
+  gap: 10px;
+  width: 286px;
+  height: 44px;
+  background-color: #1d1d1b;
+  border: none;
+  background-image: url("../../assets//icon/btn-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 85px center;
+  cursor: pointer;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.collec-btn:hover {
+  background-color: white;
+  color: #000000;
+  background-image: url("../../assets//icon/btn-arrow-2.png");
+}
+#collec-title {
+  position: absolute;
+  width: 250px;
+  height: 18px;
+  left: 18px;
+  top: 300px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: white;
+}

@@ -46,3 +46,7 @@
   border: 1px solid #1d1d1b;
   background: #1d1d1b;
 }
+a {
+  padding: 0;
+  margin: 0;
+}

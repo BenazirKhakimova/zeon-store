@@ -13,7 +13,7 @@ const NewProducts = () => {
 
   useEffect(() => {
     setSearchParams({
-      hits: "hits",
+      new: "new",
     });
   }, []);
 

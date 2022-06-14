@@ -1,0 +1,150 @@
+.floating-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+
+  position: fixed;
+  max-width: 45px;
+  max-height: 96px;
+  left: 90%;
+  top: 85%;
+  z-index: 20;
+}
+
+#float-buttons img {
+  width: 28px;
+  height: 28px;
+  gap: 10px;
+}
+.icons-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-left: -5%;
+}
+#up {
+  display: flex;
+  justify-content: flex-end;
+}
+#move-up {
+  color: white;
+}
+.open-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* modal */
+.ant-modal {
+  max-width: 436px !important;
+  width: 100% !important;
+}
+.ant-modal-body {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+.modal-inp {
+  gap: 10px;
+
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.first-inp {
+  width: 100%;
+  height: 44px;
+
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.08);
+  border-radius: 3px;
+  outline: none;
+  background-image: url("../../assets/icon/user.png");
+  background-position: 3%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.second-inp {
+  width: 100%;
+  height: 44px;
+
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.08);
+  border-radius: 3px;
+  outline: none;
+  background-image: url("../../assets/icon/phone2.png");
+  background-position: 3%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.type[type="text"] {
+  padding-left: 12%;
+}
+.placeholder::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bebebe;
+}
+.modal-inp p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+.modal-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.modal-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #393939;
+}
+.modal-text h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+  color: #393939;
+}
+.btn-modal {
+  width: 360px;
+  height: 44px;
+
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.btn-1 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.533),
+      rgba(255, 255, 255, 0.533)
+    ),
+    #1d1d1b;
+}
+.btn-2 {
+  background: #1d1d1b;
+}
