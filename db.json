@@ -1,5 +1,11 @@
 {
-  "callback": [],
+  "callback": [
+    {
+      "firstName": "benazir",
+      "phone": "996707296949",
+      "id": 35
+    }
+  ],
   "contacts": [
     {
       "phone1": "+996 500 123 456",
@@ -26,12 +32,28 @@
       "id": 1,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
+
       "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
@@ -61,11 +83,26 @@
       "id": 2,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -97,14 +134,28 @@
       "id": 3,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -133,11 +184,26 @@
       "id": 4,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -168,11 +234,26 @@
       "id": 5,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -204,11 +285,26 @@
       "id": 6,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -239,11 +335,26 @@
       "id": 7,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -274,11 +385,26 @@
       "id": 8,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -309,11 +435,26 @@
       "id": 9,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -345,11 +486,26 @@
       "id": 10,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/Y2nCqQ97/Rectangle-491-3.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -381,11 +537,26 @@
       "id": 11,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -416,11 +587,26 @@
       "id": 12,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -451,11 +637,26 @@
       "id": 13,
       "news": "news",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -486,11 +687,26 @@
       "id": 14,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -521,14 +737,28 @@
       "id": 15,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -558,14 +788,28 @@
       "id": 16,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -594,11 +838,26 @@
       "id": 17,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -630,14 +889,28 @@
       "id": 18,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -666,11 +939,26 @@
       "id": 19,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -702,14 +990,28 @@
       "id": 20,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -738,11 +1040,26 @@
       "id": 21,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -774,14 +1091,28 @@
       "id": 22,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -810,11 +1141,26 @@
       "id": 23,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -845,11 +1191,26 @@
       "id": 24,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -881,11 +1242,26 @@
       "id": 25,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -916,11 +1292,26 @@
       "id": 26,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -951,11 +1342,26 @@
       "id": 27,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -986,11 +1392,26 @@
       "id": 28,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1022,11 +1443,26 @@
       "id": 29,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/Y2nCqQ97/Rectangle-491-3.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1058,11 +1494,26 @@
       "id": 30,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1093,11 +1544,26 @@
       "id": 31,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1128,11 +1594,26 @@
       "id": 32,
       "news": "news",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1163,11 +1644,26 @@
       "id": 33,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1198,14 +1694,28 @@
       "id": 34,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -1235,14 +1745,28 @@
       "id": 35,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -1271,11 +1795,26 @@
       "id": 36,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
@@ -1307,14 +1846,28 @@
       "id": 37,
       "hits": "hits",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
       "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
       "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
@@ -1343,11 +1896,26 @@
       "id": 38,
       "new": "new",
       "collections": [
-        { "skirt": "skirt" },
-        { "goout": "goout" },
-        { "dresses": "dresses" },
-        { "summer": "summer" },
-        { "winter": "winter" }
+        {
+          "skirt": "skirt",
+          "collectionName": "Юбки"
+        },
+        {
+          "goout": "goout",
+          "collectionName": "Для выезда на природу"
+        },
+        {
+          "dresses": "dresses",
+          "collectionName": "Платья"
+        },
+        {
+          "summer": "summer",
+          "collectionName": "Коллекция лето 2022"
+        },
+        {
+          "winter": "winter",
+          "collectionName": "Коллекция зима 2022"
+        }
       ],
       "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
       "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",

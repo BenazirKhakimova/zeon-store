@@ -6,14 +6,46 @@
   width: 286px;
   height: 536px;
   border: 1px solid #f1f1f1;
+  position: relative;
+}
+.card:hover #img-fav {
+  display: block;
+  opacity: 1;
 }
 #img-rel {
   width: 286px;
   height: 437px;
-  position: relative;
+}
+#img-fav-active {
+  position: absolute;
+  left: 250px;
+  top: 12px;
 }
 #img-fav {
   position: absolute;
+  left: 250px;
+  top: 12px;
+  display: none;
+  opacity: 0.5;
+}
+#img-discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#discount-title {
+  position: absolute;
+  left: 3.02px;
+  top: 8.31px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  transform: matrix(0.71, -0.7, 0.71, 0.71, 0, 0);
+  line-height: 15px;
 }
 .card span {
   font-family: "Montserrat";
@@ -95,6 +127,11 @@
   -ms-transform: scale(1.4);
   transform: scale(1.4);
 }
+.size-circle:active {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 #color-1 {
   background-color: #73a39d;
 }
@@ -119,4 +156,13 @@
 }
 #color-8 {
   background-color: #ff0000;
+}
+.activeColor {
+  width: 16px;
+  height: 16px;
+
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+  padding: 3px;
 }

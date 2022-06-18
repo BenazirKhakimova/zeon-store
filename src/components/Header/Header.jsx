@@ -9,17 +9,20 @@ import burgerMenu from "../../../src/assets/icon/burger-menu.png";
 import whatsapp from "../../assets/icon/whatsapp (1).png";
 import telegram from "../../assets/icon/telegram (1).png";
 import search from "../../../src/assets/icon/search.png";
-import { Drawer, Input, Space } from "antd";
-import { Link } from "react-router-dom";
+import { Drawer, Input, Space, Badge } from "antd";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import Modal from "../Modal/Modal";
 import "animate.css";
+import { favouritesContext } from "../../context/favouritesContext";
 const { Search } = Input;
 
 const onSearch = (value) => console.log(value);
 
 const Header = () => {
-  const { contacts, getContacts } = useContext(contextProduct);
+  const { contacts, getContacts, products } = useContext(contextProduct);
+  const { favourites } = useContext(favouritesContext);
+
   const [clicked, setClicked] = useState(0);
 
   useEffect(() => {
@@ -44,7 +47,6 @@ const Header = () => {
             <div className="container navbar">
               <div className="nav-link">
                 <Link to={"/about"}>
-                  {" "}
                   <h3>О нас</h3>
                 </Link>
                 <Link to={"/collection"}>
@@ -71,7 +73,14 @@ const Header = () => {
                 <Search placeholder="Поиск" onSearch={onSearch} />
               </Space>
               <div className="cart-favourites">
-                <img src={heart} alt="heart" />
+                {favourites.products?.length > 0 ? (
+                  <Badge dot size="large">
+                    <img src={heart} alt="heart" />
+                  </Badge>
+                ) : (
+                  <img src={heart} alt="heart" />
+                )}
+
                 <Link to={"/favourites"}>
                   <h3>Избранное</h3>
                 </Link>

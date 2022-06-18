@@ -3,8 +3,8 @@ import Advantages from "../../components/Advantages/Advantages";
 import Carousel from "../../components/Carousel/Carousel";
 import FloatingButton from "../../components/FloatingButtons/FloatingButton";
 import Hits from "../../components/Hits/Hits";
+import MainCollection from "../../components/MainCollection/MainCollection";
 import NewProducts from "../../components/NewProducts/NewProducts";
-import Collection from "../Collection/Collection";
 const Home = () => {
   const move = () => {
     window.scrollTo({
@@ -19,7 +19,7 @@ const Home = () => {
       <Carousel />
       <Hits />
       <NewProducts />
-      {/* <Collection /> */}
+      <MainCollection />
       <Advantages />
     </div>
   );

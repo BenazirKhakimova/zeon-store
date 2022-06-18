@@ -1,6 +1,7 @@
 import { Pagination } from "antd";
 import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import IntoPage from "../../../components/BreadCrumb/IntoPage";
 import Card from "../../../components/Card/Card";
 import FloatingButton from "../../../components/FloatingButtons/FloatingButton";
 import ScrollToTopIntoPage from "../../../components/ScrollToTop/ScrollToTopIntoPage";
@@ -32,12 +33,13 @@ const Skirts = () => {
 
   return (
     <>
+      <IntoPage />
       <FloatingButton />
       <ScrollToTopIntoPage />
       <div className="container">
         <h2 id="title">Юбки</h2>
       </div>
-      <div className="collection-grid container">
+      <div className="grid container">
         {products.length > 0
           ? products.map((item) => <Card key={item.id} item={item} />)
           : null}

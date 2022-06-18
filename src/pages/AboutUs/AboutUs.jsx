@@ -1,10 +1,12 @@
 import img1 from "../../assets/img/about us/img1.png";
 import img2 from "../../assets/img/about us/img2.png";
 import img3 from "../../assets/img/about us/img3.png";
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <>
+      <BreadCrumb />
       <div className="container about_wrapper">
         <div style={{ display: "flex", gap: "24px" }}>
           <div style={{ gap: "24px" }}>

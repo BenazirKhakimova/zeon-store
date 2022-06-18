@@ -18,6 +18,7 @@ import Summer from "./pages/OwnCollection/Summer/Summer";
 import Winter from "./pages/OwnCollection/Winter/Winter";
 import GoOut from "./pages/OwnCollection/GoOut/GoOut";
 import DitailsProduct from "./pages/DitailsProduct/DitailsProduct";
+import Error404 from "./pages/Error/Error404";
 
 const Routing = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,7 +41,7 @@ const Routing = () => {
       id: 2,
     },
     {
-      path: "/Collection",
+      path: "/collection",
       element: <Collection />,
       id: 3,
     },
@@ -119,6 +120,7 @@ const Routing = () => {
                 element={item.element}
               />
             ))}
+            <Route path="*" element={<Error404 />} />
           </Routes>
 
           <Footer />

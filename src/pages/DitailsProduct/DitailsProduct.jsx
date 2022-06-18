@@ -1,108 +1,256 @@
 import React, { useContext, useEffect } from "react";
-import cl from "../styles/Product.module.scss";
 import { useParams } from "react-router-dom";
+import { Button, Modal } from "antd";
+import { useState } from "react";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+
+import "./styles.css";
+
+// import required modules
+import { Navigation } from "swiper";
 import "./DitailsProduct.css";
 import { contextProduct } from "../../context/productContext";
-const DitailsProduct = () => {
-  const { oneProduct, getOneProduct } = useContext(contextProduct);
+import cart from "../../assets/icon/cart.png";
+import deactivated from "../../assets/icon/ditailse-like(2).png";
+import activated from "../../assets/icon/ditails-like.png";
+import IntoPage from "../../components/BreadCrumb/IntoPage";
+import { favouritesContext } from "../../context/favouritesContext";
 
+const DitailsProduct = () => {
+  const { oneProduct, getOneProduct, products } = useContext(contextProduct);
+  // console.log(oneProduct.id, "one");
+  const {
+    addProductToFavourites,
+    checkItemInFavourites,
+    deleteItemFromFavourites,
+  } = useContext(favouritesContext);
+  // const [checkProduct, setCheckProduct] = useState(
+  //   checkItemInFavourites(oneProduct.id)
+  // );
+  const [visible, setVisible] = useState(false);
+  const [visibleFav, setVisibleFav] = useState(false);
   const params = useParams();
-  console.log(params);
+
   useEffect(() => {
     getOneProduct(params.id);
   }, []);
 
+  let res;
+  products.map((item) => {
+    if (item.discaunt) {
+      res = (item.price % 100) * item.discaunt;
+    }
+  });
+
   return (
-    // <Template>
     <>
-      <div className="wrap">
-        <div className="sliderImages">
-          {/* {!isLoading ?
+      {/* <IntoPage /> */}
+      {oneProduct ? (
+        <div className="wrap container">
+          <div className="sliderImages">
+            {/* {!isLoading ?
                         <SliderImages store={ProductDetail}/>
                         :
                         null
                     } */}
-        </div>
-        <div className="images">
-          {oneProduct.length > 0
-            ? oneProduct.map((item) => (
-                <div key={item.id}>
-                  <img src={item.imag1} alt="" />
-                  <img src={item.imag2} alt="" />
-                  <img src={item.imag3} alt="" />
-                  <img src={item.imag4} alt="" />
-                  <img src={item.imag5} alt="" />
-                  <img src={item.imag6} alt="" />
-                  <img src={item.imag7} alt="" />
-                  <img src={item.imag8} alt="" />
+          </div>
+          <div className="images">
+            <div key={oneProduct.id}>
+              <img
+                src={oneProduct.image1}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src={oneProduct.image2}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                src={oneProduct.image3}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                src={oneProduct.image4}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                src={oneProduct.image5}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                src={oneProduct.image6}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                src={oneProduct.image7}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                src={oneProduct.image8}
+                onClick={() => setVisible(true)}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="info">
+            <div className="innerInfo">
+              <h1 className="productTitle">{oneProduct.name}</h1>
+              <div className="article">
+                <span className="subTitle">Артикул: </span>
+                <span className="text">{oneProduct.articul}</span>
+              </div>
+              <div className="colorWrapper">
+                <div className="colors">
+                  <span className="subTitle">Цвет:</span>
+                  <div id={oneProduct.color1} className="size-circle"></div>
+                  <div id={oneProduct.color2} className="size-circle"></div>
+                  <div id={oneProduct.color3} className="size-circle"></div>
+                  <div id={oneProduct.color4} className="size-circle"></div>
+                  <div id={oneProduct.color5} className="size-circle"></div>
+                  <div id={oneProduct.color6} className="size-circle"></div>
+                  <div id={oneProduct.color7} className="size-circle"></div>
+                  <div id={oneProduct.color8} className="size-circle"></div>
                 </div>
-              ))
-            : null}
-        </div>
-        {oneProduct.length > 0
-          ? oneProduct.map((item) => (
-              <div className="info">
-                <div className="innerInfo">
-                  <h1 className="productTitle">Вечернее платье</h1>
-                  <div className="article">
-                    <span className="subTitle">Артикул: </span>
-                    <span className="text">Платье PL984/dakota</span>
+              </div>
+              {oneProduct.discaunt ? (
+                <div className="sumWrapper">
+                  <span className="sum">{res + " р"} </span>
+                  <span className="sumOld">{oneProduct.price + " р"}</span>
+                </div>
+              ) : (
+                <div className="sumWrapper">
+                  <span className="sum">{oneProduct.price + " p"}</span>
+                </div>
+              )}
+              <div>
+                <h3 className="about-product">О товаре:</h3>
+                <span className="product-description">
+                  {oneProduct.description}
+                </span>
+                <div className="extra">
+                  <div>
+                    <span className="subTitle">Размерный ряд: </span>
+                    <span>{oneProduct.size}</span>
                   </div>
-                  <div className="colorWrapper">
-                    <span className="subTitle">Цвет: </span>
-                    <div className="colors">
-                      <div id={`${item.color1}`} className="size-circle"></div>
-                      <div id={`${item.color2}`} className="size-circle"></div>
-                      <div id={`${item.color3}`} className="size-circle"></div>
-                      <div id={`${item.color4}`} className="size-circle"></div>
-                      <div id={`${item.color5}`} className="size-circle"></div>
-                      <div id={`${item.color6}`} className="size-circle"></div>
-                      <div id={`${item.color7}`} className="size-circle"></div>
-                      <div id={`${item.color8}`} className="size-circle"></div>
-                    </div>
+                  <div>
+                    <span className="subTitle">Состав ткани: </span>
+                    <span>{oneProduct.fabricComposition}</span>
                   </div>
-                  <div className={cl.sumWrapper}>
-                    <span className={cl.sum}>7229 с </span>
-                    <span className={cl.sumOld}>7229 с</span>
+                  <div>
+                    <span className="subTitle">Количество в линейке: </span>
+                    <span>{oneProduct.countInLine}</span>
                   </div>
-                  <h3 className={cl.subTitle}>О товаре</h3>
-                  <span className={cl.content}>
-                    За последние 35 лет бренд Bonucci из обычного производителя
-                    одежды превратился в широко узнаваемую марку, а его
-                    продукция – в синоним высокого качества и актуального стиля.{" "}
-                  </span>
-                  <div className={cl.extra}>
-                    <div>
-                      <span className={cl.subTitle}>Размерный ряд: </span>
-                      <span>42-50</span>
-                    </div>
-                    <div>
-                      <span className={cl.subTitle}>Состав ткани: </span>
-                      <span>Полиэстер</span>
-                    </div>
-                    <div>
-                      <span className={cl.subTitle}>
-                        Количество в линейке:{" "}
-                      </span>
-                      <span>5</span>
-                    </div>
-                    <div>
-                      <span className={cl.subTitle}>Материал: </span>
-                      <span>Полиэстер</span>
-                    </div>
-                  </div>
-                  <div className="buttons">
-                    <button className="addCart">Добавить в корзину</button>
-                    {/* <ProductCartSVG style={{width: 20, height: 20, fill: '#fff'}}/> */}
-                    {/* <LoveSVG style={{fill: '#fff'}}/> */}
-                    <button className="addFavorite"></button>
+                  <div>
+                    <span className="subTitle">Материал: </span>
+                    <span>{oneProduct.material}</span>
                   </div>
                 </div>
               </div>
-            ))
-          : null}
-      </div>
+              <div className="buttons">
+                <button className="addCart">
+                  <img width={"20px"} src={cart} alt="deactivated" />
+                  Добавить в корзину
+                </button>
+
+                {visibleFav ? (
+                  <button
+                    onClick={() => {
+                      deleteItemFromFavourites(oneProduct.id);
+                      setVisibleFav(false);
+                    }}
+                    className="addFavorite"
+                  >
+                    <img width={"24px"} src={activated} alt="activated" />
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      addProductToFavourites(oneProduct);
+                      // setCheckProduct(checkItemInFavourites(oneProduct.id));
+                      setVisibleFav(true);
+                    }}
+                    className="addFavorite"
+                  >
+                    <img width={"24px"} src={deactivated} alt="activated" />
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+          <Modal
+            centered
+            visible={visible}
+            onOk={() => setVisible(false)}
+            onCancel={() => setVisible(false)}
+            width={"100%"}
+            footer={null}
+          >
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img src={`${oneProduct.image1}:id`} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={`${oneProduct.image2}`} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={`${oneProduct.image3}:id`} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={oneProduct.image4} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={oneProduct.image5} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={oneProduct.image6} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={oneProduct.image7} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={oneProduct.image8} alt="" />
+              </SwiperSlide>
+            </Swiper>
+          </Modal>
+        </div>
+      ) : null}
       {/* <h1 className={cl.title}>Похожие товары</h1>
       <div className={cl.slider}>
         <SliderProducts store={Bestsellers}/>

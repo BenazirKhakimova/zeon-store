@@ -1,9 +1,11 @@
 import React from "react";
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import FloatingButton from "../../components/FloatingButtons/FloatingButton";
 import "./PublicOffer.css";
 const PublicOffer = () => {
   return (
     <>
+      <BreadCrumb />
       <FloatingButton />
       <div className="container">
         <h2 id="title">Публичная оферта</h2>

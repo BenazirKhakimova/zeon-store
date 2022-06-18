@@ -9,6 +9,8 @@ import { useContext } from "react";
 import { contextProduct } from "../../context/productContext";
 import TelephoneIcon from "../../assets/icon/telephone.png";
 
+import { useFormik } from "formik";
+
 import { Modal } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -19,12 +21,41 @@ const MoveUp = () => {
   });
 };
 
+const validate = (values) => {
+  const errors = {};
+  if (!values.firstName) {
+    errors.firstName = "Заполните поле!";
+  } else if (!/^[a-zA-Zа-яА-Я]+$/i.test(values.firstName)) {
+    errors.firstName = "Введите буквы пожалуйста!";
+  }
+
+  if (!values.phone) {
+    errors.phone = "Заполните поле";
+  } else if (!/^\d+$/i.test(values.phone)) {
+    errors.phone = "Введите числа пожалуйста! ";
+  }
+  return errors;
+};
+
 function FloatingButton() {
   const [open, setOpen] = useState(true);
-  const { contacts } = useContext(contextProduct);
+  const { contacts, postCallBack } = useContext(contextProduct);
   const novigate = useNavigate();
+
   // modal
   const [modal2Visible, setModal2Visible] = useState(false);
+
+  const formik = useFormik({
+    initialValues: {
+      firstName: "",
+      phone: "",
+    },
+    validate,
+    onSubmit: (values) => {
+      postCallBack(values, null, 2);
+    },
+  });
+
   return (
     <div className="container floating-button-wrapper">
       <div id="float-buttons">
@@ -66,7 +97,7 @@ function FloatingButton() {
                   />
                 </div>
               </div>
-              <>
+              <div className="modal">
                 <Modal
                   centered
                   visible={modal2Visible}
@@ -74,34 +105,59 @@ function FloatingButton() {
                   onCancel={() => setModal2Visible(false)}
                   footer={null}
                 >
-                  <div className="modal-text">
-                    <h3>Если у Вас остались вопросы</h3>
-                    <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
-                  </div>
+                  <form onSubmit={formik.handleSubmit}>
+                    <div className="modal-text">
+                      <h3>Если у Вас остались вопросы</h3>
+                      <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
+                    </div>
 
-                  <div className="modal-inp">
-                    <input
-                      className="first-inp placeholder type"
-                      type="text"
-                      placeholder="Как к Вам обращаться?"
-                    />
-                    {/* <p>В полях дожны присутсвовать буквы!</p> */}
-                    <input
-                      className="second-inp placeholder type"
-                      type="text"
-                      placeholder="Номер телефона"
-                    />
-                    {/* <p>В полях дожны присутсвовать числа!</p> */}
-                    <button className="btn-modal btn-1">Заказать Звонок</button>
-                    {/* <button className="btn-modal btn-2">Заказать Звонок</button>
+                    <div className="modal-inp">
+                      <input
+                        className="first-inp placeholder type"
+                        type="text"
+                        placeholder="Как к Вам обращаться?"
+                        id="firstName"
+                        name="firstName"
+                        onChange={formik.handleChange}
+                        value={formik.values.firstName}
+                      />
+                      {formik.errors.firstName ? (
+                        <div className="error">{formik.errors.firstName}</div>
+                      ) : null}
+
+                      <input
+                        className="second-inp placeholder type"
+                        type="text"
+                        placeholder="Номер телефона"
+                        id="phone"
+                        name="phone"
+                        onChange={formik.handleChange}
+                        value={formik.values.phone}
+                      />
+                      {formik.errors.phone ? (
+                        <div className="error">{formik.errors.phone}</div>
+                      ) : null}
+
+                      {formik.errors.phone && formik.errors.firstName ? (
+                        <button className="btn-modal btn-1">
+                          Заказать Звонок
+                        </button>
+                      ) : (
+                        <button type="submit" className="btn-modal btn-2">
+                          Заказать Звонок
+                        </button>
+                      )}
+
+                      {/* 
                     <Link to={novigate - 1}>
                       <button className="btn-modal btn-2">
                         Продолжить покупки
                       </button>
                     </Link> */}
-                  </div>
+                    </div>
+                  </form>
                 </Modal>
-              </>
+              </div>
             </div>
           ))
         )}

@@ -6,7 +6,7 @@ import "./NewProducts.css";
 const NewProducts = () => {
   const { getProducts, products } = useContext(contextProduct);
   const [searchParams, setSearchParams] = useSearchParams();
-  const [noOfElement, setNoOfElement] = useState(8);
+  const [items, setItems] = useState(8);
   useEffect(() => {
     getProducts();
   }, []);
@@ -21,11 +21,19 @@ const NewProducts = () => {
     getProducts();
   }, [searchParams]);
 
-  const slice = products.slice(0, noOfElement);
+  const slice = products.slice(0, items);
 
   const loadMore = () => {
-    setNoOfElement(noOfElement + noOfElement);
+    setItems(items + items);
   };
+  let visible = {
+    display: "block",
+  };
+  if (products.length <= items) {
+    visible = {
+      visibility: "hidden",
+    };
+  }
   return (
     <>
       <div className="container hits-title-wrapper">
@@ -37,7 +45,9 @@ const NewProducts = () => {
           : null}
       </div>
       <div className="also-wrapper">
-        <button onClick={() => loadMore()}>Ещё</button>
+        <button style={visible} onClick={() => loadMore()}>
+          Ещё
+        </button>
       </div>
     </>
   );

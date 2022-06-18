@@ -9,6 +9,7 @@ import {
   CASES_GET_PRODUCTS,
 } from "../helpers/cases";
 import {
+  CALLBACK_API,
   COLLECTIONS_API,
   CONTACTS_API,
   DATA_API,
@@ -60,7 +61,7 @@ const reducer = (state = INIT_STATE, action) => {
     case CASES_GET_ONE_PRODUCT:
       return {
         ...state,
-        data: action.payload.data,
+        oneProduct: action.payload.data,
       };
     default:
       return state;
@@ -78,8 +79,8 @@ const ProductsContextProvider = ({ children }) => {
     });
   };
 
-  const getOneProduct = async () => {
-    let result = await axios(PRODUCTS_API);
+  const getOneProduct = async (id) => {
+    let result = await axios(`${PRODUCTS_API}/${id}`);
     dispatch({
       type: CASES_GET_ONE_PRODUCT,
       payload: result,
@@ -108,12 +109,16 @@ const ProductsContextProvider = ({ children }) => {
       payload: result,
     });
   };
-  const getContacts = async (id) => {
-    let result = await axios(`CONTACTS_API/${id}`);
+  const getContacts = async () => {
+    let result = await axios(CONTACTS_API);
     dispatch({
       type: CASES_GET_CONTACTS,
       payload: result,
     });
+  };
+
+  const postCallBack = async (values) => {
+    await axios.post(CALLBACK_API, values);
   };
   return (
     <contextProduct.Provider
@@ -124,12 +129,14 @@ const ProductsContextProvider = ({ children }) => {
         contacts: state.contacts,
         productsCount: state.productsCount,
         data: state.data,
+        oneProduct: state.oneProduct,
         getProducts,
         getNews,
         getCollections,
         getContacts,
         getData,
         getOneProduct,
+        postCallBack,
       }}
     >
       {children}

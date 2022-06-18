@@ -2,8 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { Card, Empty, Pagination } from "antd";
 import "./Collection.css";
 import { Link, useSearchParams } from "react-router-dom";
-import ScrollToTopIntoPage from "../../components/ScrollToTop/ScrollToTopIntoPage";
 import { contextProduct } from "../../context/productContext";
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 const Collection = () => {
   const { collections, getCollections, productsCount } =
@@ -31,11 +31,11 @@ const Collection = () => {
 
   return (
     <>
-      <ScrollToTopIntoPage />
+      <BreadCrumb />
       <div className="container">
         <h2 id="title">Коллекции</h2>
       </div>
-      <div className="container collection-grid">
+      <div className="container grid">
         {collections.length > 0 ? (
           collections.map((item) => (
             <Card

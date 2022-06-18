@@ -3,6 +3,7 @@ import "./News.css";
 import { Empty } from "antd";
 import axios from "axios";
 import FloatingButton from "../../components/FloatingButtons/FloatingButton";
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 const News = () => {
   const [news, setNews] = useState([]);
@@ -48,6 +49,7 @@ const News = () => {
 
   return (
     <>
+      <BreadCrumb />
       <FloatingButton />
       <div className="container">
         <h2 id="title">Новости</h2>
