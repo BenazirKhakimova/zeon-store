@@ -59,14 +59,7 @@
   line-height: 20px;
   color: #393939;
 }
-.ant-input {
-  width: 620px !important;
-  height: 44px;
-}
-.ant-input-search-button {
-  width: 44px !important;
-  height: 44px !important;
-}
+
 #line {
   width: 24px;
   height: 0px;

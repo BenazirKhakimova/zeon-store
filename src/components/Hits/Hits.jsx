@@ -1,4 +1,3 @@
-import { Spin } from "antd";
 import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
@@ -8,7 +7,6 @@ const Hits = () => {
   const { getProducts, products } = useContext(contextProduct);
   const [searchParams, setSearchParams] = useSearchParams();
   const [items, setItems] = useState(8);
-  // console.log("products", products);
 
   useEffect(() => {
     getProducts();
@@ -24,8 +22,6 @@ const Hits = () => {
     getProducts();
   }, [searchParams]);
 
-  // console.log(products.length);
-  // console.log("items" + items);
   const slice = products.slice(0, items);
   const loadMore = () => {
     setItems(items + items);

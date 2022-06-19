@@ -6,7 +6,10 @@ import img from "../../assets/img/about us/img3.png";
 import minus from "../../assets/icon/minus.png";
 import plus from "../../assets/icon/plus.png";
 import { CloseOutlined } from "@ant-design/icons";
+import { useContext } from "react";
+import { contextProduct } from "../../context/productContext";
 function Cart() {
+  const { products } = useContext(contextProduct);
   return (
     <div>
       <BreadCrumb />

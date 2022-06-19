@@ -1,8 +1,7 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import { Breadcrumb } from "antd";
 import "./BreadCrumb.css";
 import { Link, useLocation } from "react-router-dom";
-import { contextProduct } from "../../context/productContext";
 
 const BreadCrumb = () => {
   const { pathname } = useLocation();
@@ -22,6 +21,8 @@ const BreadCrumb = () => {
       return <p>Публичная оферта</p>;
     } else if (pathname === "/collection") {
       return <p>Коллекции</p>;
+    } else if (pathname === "/searchPage") {
+      return <p>Результаты поиска</p>;
     } else {
       return null;
     }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Collection from "./pages/Collection/Collection";
 import News from "./pages/News/News";
 import Cart from "./pages/Cart/Cart";
@@ -19,6 +19,7 @@ import Winter from "./pages/OwnCollection/Winter/Winter";
 import GoOut from "./pages/OwnCollection/GoOut/GoOut";
 import DitailsProduct from "./pages/DitailsProduct/DitailsProduct";
 import Error404 from "./pages/Error/Error404";
+import SearchPage from "./components/Search/SearchPage";
 
 const Routing = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -99,6 +100,11 @@ const Routing = () => {
     {
       path: "/ditails/:id",
       element: <DitailsProduct />,
+      id: 11,
+    },
+    {
+      path: "/searchPage",
+      element: <SearchPage />,
       id: 11,
     },
   ];

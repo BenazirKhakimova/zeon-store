@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./Header.css";
-import logo from "../../../src/assets/img/Logo.png";
 import heart from "../../../src/assets/icon/Vector.png";
 import shopping from "../../../src/assets/icon/shopping-bag 1.png";
 import line from "../../../src/assets/icon/Line.png";
@@ -9,15 +8,13 @@ import burgerMenu from "../../../src/assets/icon/burger-menu.png";
 import whatsapp from "../../assets/icon/whatsapp (1).png";
 import telegram from "../../assets/icon/telegram (1).png";
 import search from "../../../src/assets/icon/search.png";
-import { Drawer, Input, Space, Badge } from "antd";
-import { Link, useParams, useSearchParams } from "react-router-dom";
+import { Drawer, Badge } from "antd";
+import { Link } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import Modal from "../Modal/Modal";
 import "animate.css";
 import { favouritesContext } from "../../context/favouritesContext";
-const { Search } = Input;
-
-const onSearch = (value) => console.log(value);
+import Search from "../Search/Search";
 
 const Header = () => {
   const { contacts, getContacts, products } = useContext(contextProduct);
@@ -69,9 +66,7 @@ const Header = () => {
               <Link to={"/"}>
                 <img id="nav-logo" src={item.logoNav} alt="logo" />
               </Link>
-              <Space direction="vertical">
-                <Search placeholder="Поиск" onSearch={onSearch} />
-              </Space>
+              <Search products={products} key={products.id} />
               <div className="cart-favourites">
                 {favourites.products?.length > 0 ? (
                   <Badge dot size="large">

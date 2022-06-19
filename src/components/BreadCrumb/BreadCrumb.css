@@ -10,3 +10,9 @@
   font-size: 14px !important;
   line-height: 17px !important;
 }
+.ant-breadcrumb li:last-child a {
+  color: #979797 !important;
+}
+.ant-breadcrumb a {
+  color: #393939 !important;
+}

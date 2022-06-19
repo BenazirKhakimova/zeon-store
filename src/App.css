@@ -10,6 +10,32 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 50px;
+  margin-top: 16px;
+}
+.ant-pagination-item-active {
+  background: #1d1d1b !important;
+  border-color: #1d1d1b !important;
+}
+.ant-pagination-item-active:hover {
+  border-color: #1d1d1b !important;
+  background-color: #1d1d1b !important;
+}
+.ant-pagination-item-active:focus-visible {
+  border-color: #1d1d1b !important;
+}
+.ant-pagination-item-active a {
+  color: white !important;
+}
+.ant-pagination-item-active:hover a {
+  color: #ffffff !important;
+}
+.ant-pagination-item:hover {
+  color: #1d1d1b !important;
+  border-color: #1d1d1b62 !important;
+}
+.ant-pagination-item-link:hover {
+  color: #1d1d1b62 !important;
+  border-color: #1d1d1b62 !important;
 }
 #title {
   font-family: "Montserrat";

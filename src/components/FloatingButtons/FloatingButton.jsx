@@ -13,7 +13,7 @@ import { useFormik } from "formik";
 
 import { Modal } from "antd";
 import { Link, useNavigate } from "react-router-dom";
-
+import check from "../../assets/icon/check.png";
 const MoveUp = () => {
   window.scrollTo({
     top: 0,
@@ -26,13 +26,15 @@ const validate = (values) => {
   if (!values.firstName) {
     errors.firstName = "Заполните поле!";
   } else if (!/^[a-zA-Zа-яА-Я]+$/i.test(values.firstName)) {
-    errors.firstName = "Введите буквы пожалуйста!";
+    errors.firstName = "Введите Ваше имя пожалуйста!";
   }
 
   if (!values.phone) {
     errors.phone = "Заполните поле";
-  } else if (!/^\d+$/i.test(values.phone)) {
-    errors.phone = "Введите числа пожалуйста! ";
+  } else if (
+    !/^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/.test(values.phone)
+  ) {
+    errors.phone = "Введите Ваш номер пожалуйста! ";
   }
   return errors;
 };
@@ -43,6 +45,7 @@ function FloatingButton() {
   const novigate = useNavigate();
 
   // modal
+  const [modal1Visible, setModal1Visible] = useState(false);
   const [modal2Visible, setModal2Visible] = useState(false);
 
   const formik = useFormik({
@@ -56,6 +59,15 @@ function FloatingButton() {
     },
   });
 
+  let styleVisible = {
+    visibility: "visible",
+  };
+
+  const visibleSecondModal = () => {
+    setTimeout(() => {
+      setModal2Visible(true);
+    }, 700);
+  };
   return (
     <div className="container floating-button-wrapper">
       <div id="float-buttons">
@@ -79,7 +91,7 @@ function FloatingButton() {
                   <img
                     src={TelephoneIcon}
                     alt=""
-                    onClick={() => setModal2Visible(true)}
+                    onClick={() => setModal1Visible(true)}
                   />
 
                   <a target="_blank" href={item.telegram}>
@@ -100,12 +112,14 @@ function FloatingButton() {
               <div className="modal">
                 <Modal
                   centered
-                  visible={modal2Visible}
-                  onOk={() => setModal2Visible(false)}
-                  onCancel={() => setModal2Visible(false)}
+                  visible={modal1Visible}
+                  onOk={() => setModal1Visible(false)}
+                  onCancel={() => setModal1Visible(false)}
                   footer={null}
+                  className="first-modal"
+                  style={styleVisible}
                 >
-                  <form onSubmit={formik.handleSubmit}>
+                  <form className="fb-modal" onSubmit={formik.handleSubmit}>
                     <div className="modal-text">
                       <h3>Если у Вас остались вопросы</h3>
                       <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
@@ -138,24 +152,60 @@ function FloatingButton() {
                         <div className="error">{formik.errors.phone}</div>
                       ) : null}
 
-                      {formik.errors.phone && formik.errors.firstName ? (
-                        <button className="btn-modal btn-1">
+                      {formik.errors.phone ? (
+                        <button
+                          disabled="disabled"
+                          type="button"
+                          className="btn-modal btn-1"
+                        >
+                          Заказать Звонок
+                        </button>
+                      ) : formik.errors.firstName ? (
+                        <button
+                          disabled="disabled"
+                          type="button"
+                          className="btn-modal btn-1"
+                        >
                           Заказать Звонок
                         </button>
                       ) : (
-                        <button type="submit" className="btn-modal btn-2">
+                        <button
+                          type="submit"
+                          onClick={() => {
+                            setModal1Visible(false);
+                            visibleSecondModal();
+                          }}
+                          className="btn-modal btn-2"
+                        >
                           Заказать Звонок
                         </button>
                       )}
-
-                      {/* 
-                    <Link to={novigate - 1}>
-                      <button className="btn-modal btn-2">
-                        Продолжить покупки
-                      </button>
-                    </Link> */}
                     </div>
                   </form>
+                </Modal>
+                <Modal
+                  centered
+                  visible={modal2Visible}
+                  onOk={() => setModal2Visible(false)}
+                  onCancel={() => setModal2Visible(false)}
+                  footer={null}
+                  className="second-modal-wrapper"
+                >
+                  <div className="second-modal">
+                    <img src={check} alt="check" />
+                    <div className="titles-wrapper">
+                      <h3 className="fb-title">Спасибо!</h3>
+                      <h3 className="fb-sub-title">
+                        Ваша заявка была принята ожидайте, скоро Вам перезвонят
+                      </h3>
+                    </div>
+
+                    <Link to={novigate - 1}>
+                      <button className="btn-modal btn-3">
+                        Продолжить покупки
+                      </button>
+                    </Link>
+                  </div>
                 </Modal>
               </div>
             </div>
