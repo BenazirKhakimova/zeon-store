@@ -1,10 +1,13 @@
 import axios from "axios";
-import React, { useReducer } from "react";
+import React, { useReducer, useState } from "react";
+import Order from "../components/CartModal/CartModal";
 import {
+  CASES_GET_ABOUT_US,
   CASES_GET_COLLECTIONS,
   CASES_GET_CONTACTS,
   CASES_GET_DATA,
   CASES_GET_NEWS,
+  CASES_GET_OFFER,
   CASES_GET_ONE_PRODUCT,
   CASES_GET_PRODUCTS,
 } from "../helpers/cases";
@@ -13,7 +16,10 @@ import {
   COLLECTIONS_API,
   CONTACTS_API,
   DATA_API,
+  GET_ABOUT_US,
+  GET_OFFER,
   NEWS_API,
+  POST_ORDER,
   PRODUCTS_API,
 } from "../helpers/consts";
 
@@ -27,6 +33,8 @@ const INIT_STATE = {
   data: [],
   productsCount: 0,
   contacts: [],
+  offer: [],
+  aboutUs: [],
 };
 
 const reducer = (state = INIT_STATE, action) => {
@@ -62,6 +70,16 @@ const reducer = (state = INIT_STATE, action) => {
       return {
         ...state,
         oneProduct: action.payload.data,
+      };
+    case CASES_GET_OFFER:
+      return {
+        ...state,
+        offer: action.payload.data,
+      };
+    case CASES_GET_ABOUT_US:
+      return {
+        ...state,
+        aboutUs: action.payload.data,
       };
     default:
       return state;
@@ -117,9 +135,56 @@ const ProductsContextProvider = ({ children }) => {
     });
   };
 
+  const getOffer = async () => {
+    let result = await axios(GET_OFFER);
+    dispatch({
+      type: CASES_GET_OFFER,
+      payload: result,
+    });
+  };
+
+  const getAboutUs = async () => {
+    let result = await axios(GET_ABOUT_US);
+    dispatch({
+      type: CASES_GET_ABOUT_US,
+      payload: result,
+    });
+  };
+
   const postCallBack = async (values) => {
     await axios.post(CALLBACK_API, values);
   };
+
+  const handlePostOrders = async (values) => {
+    await axios.post(POST_ORDER, values);
+  };
+
+  const [foundProduct, setFoundProduct] = useState([]);
+  const [getValue, setGetValue] = useState("");
+  const handleSearch = (e, products = state.products) => {
+    let value = e.target.value;
+    setGetValue(value);
+    let newFilter = products.filter((item) => {
+      return item.name.toLowerCase().includes(value.toLowerCase());
+    });
+    if (value === "") {
+      setFoundProduct([]);
+    } else {
+      setFoundProduct(newFilter);
+    }
+  };
+
+  const [cartProduct, setProduct] = useState({});
+  const handleChangeColor = (e, oneProduct = state.oneProduct) => {
+    oneProduct.currentColor = e.target.id;
+    oneProduct.colors.map((color, index) => {
+      if (oneProduct.currentColor == color.color) {
+        oneProduct.currentImg = oneProduct[`image${index + 1}`];
+      }
+    });
+    setProduct(oneProduct);
+  };
+
   return (
     <contextProduct.Provider
       value={{
@@ -130,6 +195,13 @@ const ProductsContextProvider = ({ children }) => {
         productsCount: state.productsCount,
         data: state.data,
         oneProduct: state.oneProduct,
+        foundProduct: foundProduct,
+        getValue: getValue,
+        cartProduct: cartProduct,
+        offer: state.offer,
+        aboutUs: state,
+        setFoundProduct,
+        setGetValue,
         getProducts,
         getNews,
         getCollections,
@@ -137,6 +209,11 @@ const ProductsContextProvider = ({ children }) => {
         getData,
         getOneProduct,
         postCallBack,
+        handleSearch,
+        handleChangeColor,
+        handlePostOrders,
+        getOffer,
+        getAboutUs,
       }}
     >
       {children}

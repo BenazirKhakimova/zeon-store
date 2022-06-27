@@ -23,6 +23,7 @@ const Hits = () => {
   }, [searchParams]);
 
   const slice = products.slice(0, items);
+
   const loadMore = () => {
     setItems(items + items);
   };
@@ -40,8 +41,8 @@ const Hits = () => {
         <h3 id="hits-title">Хит продаж</h3>
       </div>
       <div className="hits-card-wrapper container">
-        {slice.length > 0
-          ? slice.map((item) => <Card key={item.id} item={item} />)
+        {slice.length > 2
+          ? slice.map((item, i) => <Card key={item.id} item={item} i={i} />)
           : null}
       </div>
       <div className="also-wrapper">

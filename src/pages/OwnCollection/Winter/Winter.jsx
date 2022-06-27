@@ -1,6 +1,6 @@
-import { Pagination } from "antd";
+import { Breadcrumb, Pagination } from "antd";
 import React, { useContext, useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 import IntoPage from "../../../components/BreadCrumb/IntoPage";
 import Card from "../../../components/Card/Card";
 import FloatingButton from "../../../components/FloatingButtons/FloatingButton";
@@ -31,10 +31,43 @@ const Skirts = () => {
     getProducts();
   }, [searchParams]);
 
+  const { pathname } = useLocation();
+  const intoPages = () => {
+    if (pathname === "/winter") {
+      return <p>Коллекция зима 2022</p>;
+    } else if (pathname === "/goout") {
+      return <p>Для выезда на природу</p>;
+    } else if (pathname === "/skirts") {
+      return <p>Юбки</p>;
+    } else if (pathname === "/summer") {
+      return <p>Коллекция лето 2022</p>;
+    } else if (pathname === "/dresses") {
+      return <p>Платья</p>;
+    } else if (pathname === "/goout") {
+      return <p>Для выезда на природу</p>;
+    } else {
+      return null;
+    }
+  };
+
   return (
     <>
-      <IntoPage />
-      <FloatingButton />
+      <div className="breadcrumb-wrapper">
+        <div className="container">
+          <Breadcrumb className="breadcrumb">
+            <Breadcrumb.Item className="breadcrumb">
+              <Link to="/">Главное</Link>
+            </Breadcrumb.Item>
+            <Breadcrumb.Item className="breadcrumb">
+              <Link to="/collection">Коллекции</Link>
+            </Breadcrumb.Item>
+            <Breadcrumb.Item className="breadcrumb">
+              <a href="">{intoPages()}</a>
+            </Breadcrumb.Item>
+          </Breadcrumb>
+        </div>
+      </div>
+      {/* <FloatingButton /> */}
       <ScrollToTopIntoPage />
       <div className="container">
         <h2 id="title">Коллекция зима 2022</h2>
@@ -55,6 +88,14 @@ const Skirts = () => {
             setLimit(limit);
           }}
         />
+      </div>
+      <div className="container">
+        <h2 id="title">Новинки</h2>
+        <div className="flex">
+          {products.slice(0, 5).map((item) => (
+            <Card key={item.id} item={item} />
+          ))}
+        </div>
       </div>
     </>
   );

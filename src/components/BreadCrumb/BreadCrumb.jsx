@@ -5,7 +5,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const BreadCrumb = () => {
   const { pathname } = useLocation();
-
   const mainPages = () => {
     if (pathname === "/about") {
       return <p>О нас</p>;
@@ -21,8 +20,6 @@ const BreadCrumb = () => {
       return <p>Публичная оферта</p>;
     } else if (pathname === "/collection") {
       return <p>Коллекции</p>;
-    } else if (pathname === "/searchPage") {
-      return <p>Результаты поиска</p>;
     } else {
       return null;
     }

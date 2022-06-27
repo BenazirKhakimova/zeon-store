@@ -6,6 +6,18 @@
       "id": 1
     }
   ],
+  "orders": [
+    {
+      "firstName": "Benazir",
+      "lastName": "Khakimova",
+      "email": "benazirkhakimova91@gmail.com",
+      "phone": "",
+      "country": "Кыргызстан",
+      "city": "Бишкек",
+      "toggle": true,
+      "id": 1
+    }
+  ],
   "contacts": [
     {
       "phone1": "+996 500 123 456",
@@ -32,44 +44,44 @@
       "material": "Полиэстер",
       "id": 1,
       "hits": "hits",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Платье",
@@ -82,44 +94,44 @@
       "material": "Полиэстер",
       "id": 2,
       "new": "new",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Юбка",
@@ -133,44 +145,44 @@
       "material": "Полиэстер",
       "id": 3,
       "hits": "hits",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Юбка",
@@ -183,44 +195,44 @@
       "material": "Полиэстер",
       "id": 4,
       "new": "new",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Пиджак",
@@ -233,44 +245,44 @@
       "material": "Полиэстер",
       "id": 5,
       "hits": "hits",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Платок",
@@ -284,44 +296,44 @@
       "material": "Полиэстер",
       "id": 6,
       "new": "new",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -334,44 +346,44 @@
       "material": "Полиэстер",
       "id": 7,
       "hits": "hits",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -384,44 +396,44 @@
       "material": "Полиэстер",
       "id": 8,
       "new": "new",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -434,44 +446,44 @@
       "material": "Полиэстер",
       "id": 9,
       "hits": "hits",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -485,44 +497,44 @@
       "material": "Полиэстер",
       "id": 10,
       "new": "new",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/Y2nCqQ97/Rectangle-491-3.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -536,44 +548,44 @@
       "material": "Полиэстер",
       "id": 11,
       "hits": "hits",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -586,44 +598,44 @@
       "material": "Полиэстер",
       "id": 12,
       "new": "new",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -636,44 +648,44 @@
       "material": "Полиэстер",
       "id": 13,
       "news": "news",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -686,44 +698,44 @@
       "material": "Полиэстер",
       "id": 14,
       "hits": "hits",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -736,44 +748,44 @@
       "material": "Полиэстер",
       "id": 15,
       "new": "new",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -787,44 +799,44 @@
       "material": "Полиэстер",
       "id": 16,
       "hits": "hits",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -837,44 +849,44 @@
       "material": "Полиэстер",
       "id": 17,
       "new": "new",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -888,44 +900,44 @@
       "material": "Полиэстер",
       "id": 18,
       "hits": "hits",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -938,44 +950,44 @@
       "material": "Полиэстер",
       "id": 19,
       "new": "new",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -989,44 +1001,44 @@
       "material": "Полиэстер",
       "id": 20,
       "hits": "hits",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1039,44 +1051,44 @@
       "material": "Полиэстер",
       "id": 21,
       "new": "new",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1090,44 +1102,44 @@
       "material": "Полиэстер",
       "id": 22,
       "hits": "hits",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1140,44 +1152,44 @@
       "material": "Полиэстер",
       "id": 23,
       "new": "new",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1190,44 +1202,44 @@
       "material": "Полиэстер",
       "id": 24,
       "hits": "hits",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1241,44 +1253,44 @@
       "material": "Полиэстер",
       "id": 25,
       "new": "new",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1291,44 +1303,44 @@
       "material": "Полиэстер",
       "id": 26,
       "hits": "hits",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1341,44 +1353,44 @@
       "material": "Полиэстер",
       "id": 27,
       "new": "new",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1391,44 +1403,44 @@
       "material": "Полиэстер",
       "id": 28,
       "hits": "hits",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1442,44 +1454,44 @@
       "material": "Полиэстер",
       "id": 29,
       "new": "new",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/Y2nCqQ97/Rectangle-491-3.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1493,44 +1505,44 @@
       "material": "Полиэстер",
       "id": 30,
       "hits": "hits",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1543,44 +1555,44 @@
       "material": "Полиэстер",
       "id": 31,
       "new": "new",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1593,44 +1605,44 @@
       "material": "Полиэстер",
       "id": 32,
       "news": "news",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1643,44 +1655,44 @@
       "material": "Полиэстер",
       "id": 33,
       "hits": "hits",
-      "collections": [
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1693,44 +1705,44 @@
       "material": "Полиэстер",
       "id": 34,
       "new": "new",
-      "collections": [
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1744,44 +1756,44 @@
       "material": "Полиэстер",
       "id": 35,
       "hits": "hits",
-      "collections": [
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/8cPcXHzK/Rectangle-353.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1794,44 +1806,44 @@
       "material": "Полиэстер",
       "id": 36,
       "new": "new",
-      "collections": [
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1845,44 +1857,44 @@
       "material": "Полиэстер",
       "id": 37,
       "hits": "hits",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
     },
     {
       "name": "Вечернee платье",
@@ -1895,44 +1907,1908 @@
       "material": "Полиэстер",
       "id": 38,
       "new": "new",
-      "collections": [
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
         {
-          "skirt": "skirt",
-          "collectionName": "Юбки"
+          "color": "color-1"
         },
         {
-          "goout": "goout",
-          "collectionName": "Для выезда на природу"
+          "color": "color-2"
         },
         {
-          "dresses": "dresses",
-          "collectionName": "Платья"
+          "color": "color-3"
         },
         {
-          "summer": "summer",
-          "collectionName": "Коллекция лето 2022"
+          "color": "color-4"
         },
         {
-          "winter": "winter",
-          "collectionName": "Коллекция зима 2022"
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
         }
       ],
-      "image1": "https://i.postimg.cc/pTPLyZzW/Rectangle-491-1.png",
-      "image2": "https://i.postimg.cc/QtDH1sGr/Rectangle-353-1.png",
-      "image3": "https://i.postimg.cc/YCm9PjtH/Rectangle-491.png",
-      "image4": "https://i.postimg.cc/mkXDvHcb/Rectangle-491-3.png",
-      "image5": "https://i.postimg.cc/yYxWFv5W/Rectangle-491-4.png",
-      "image6": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "image7": "https://i.postimg.cc/sxXf4gTb/Rectangle-491-2.png",
-      "image8": "https://i.postimg.cc/GhftzvwK/Rectangle-491-1.png",
-      "color1": "color-1",
-      "color2": "color-2",
-      "color3": "color-3",
-      "color4": "color-4",
-      "color5": "color-5",
-      "color6": "color-6",
-      "color7": "color-7",
-      "color8": "color-8"
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Кардиган",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discount": 45,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 39,
+      "hits": "hits",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 40,
+      "new": "new",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Юбка",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 50,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 41,
+      "hits": "hits",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Юбка",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 42,
+      "new": "new",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Пиджак",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 43,
+      "hits": "hits",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Платок",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 30,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 44,
+      "new": "new",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 45,
+      "hits": "hits",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 46,
+      "new": "new",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 47,
+      "hits": "hits",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 50,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 48,
+      "new": "new",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 45,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 49,
+      "hits": "hits",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 50,
+      "new": "new",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 51,
+      "news": "news",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 52,
+      "hits": "hits",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 53,
+      "new": "new",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 1365,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 30,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 54,
+      "hits": "hits",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 55,
+      "new": "new",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Кардиган",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discount": 45,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 56,
+      "hits": "hits",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 57,
+      "new": "new",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Юбка",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 50,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 58,
+      "hits": "hits",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Юбка",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 59,
+      "new": "new",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Пиджак",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 60,
+      "hits": "hits",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Платок",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 30,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 61,
+      "new": "new",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 62,
+      "hits": "hits",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 63,
+      "new": "new",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 64,
+      "hits": "hits",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image1": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 50,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 65,
+      "new": "new",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 45,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 66,
+      "hits": "hits",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 67,
+      "new": "new",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image1": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 68,
+      "news": "news",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image1": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 69,
+      "hits": "hits",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image1": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 70,
+      "new": "new",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 1365,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 30,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 72,
+      "hits": "hits",
+      "goout": "goout",
+      "colName": "Для выезда на природу",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 73,
+      "new": "new",
+      "skirt": "skirt",
+      "colName": "Юбки",
+      "currentImg": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image1": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discaunt": 45,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 74,
+      "hits": "hits",
+      "dresses": "dresses",
+      "colName": "Платья",
+      "currentImg": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image1": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 75,
+      "new": "new",
+      "summer": "summer",
+      "colName": "Коллекция лето 2022",
+      "currentImg": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image1": "https://i.postimg.cc/2SC76VgH/Rectangle-491-9.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
+    },
+    {
+      "name": "Вечернee платье",
+      "price": 2730,
+      "articul": "Платье PL984/dakota",
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "size": "42-50",
+      "countInLine": 5,
+      "discount": 45,
+      "fabricComposition": "Полиэстер",
+      "material": "Полиэстер",
+      "id": 76,
+      "hits": "hits",
+      "winter": "winter",
+      "colName": "Коллекция зима 2022",
+      "currentImg": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image1": "https://i.postimg.cc/7LsVjwsK/Rectangle-491-5.png",
+      "image2": "https://i.postimg.cc/dVnmTJYJ/Rectangle-491-8.png",
+      "image3": "https://i.postimg.cc/pT3BXkt8/Rectangle-491.png",
+      "image4": "https://i.postimg.cc/hPL0c9Zz/Rectangle-491-7.png",
+      "image5": "https://i.postimg.cc/3J5ZsL1Q/Rectangle-491-6.png",
+      "image6": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "image7": "https://i.postimg.cc/pVnZ1NDB/Rectangle-491-2.png",
+      "image8": "https://i.postimg.cc/50X3VTDb/Rectangle-491-1.png",
+      "colors": [
+        {
+          "color": "color-1"
+        },
+        {
+          "color": "color-2"
+        },
+        {
+          "color": "color-3"
+        },
+        {
+          "color": "color-4"
+        },
+        {
+          "color": "color-5"
+        },
+        {
+          "color": "color-6"
+        },
+        {
+          "color": "color-7"
+        },
+        {
+          "color": "color-8"
+        }
+      ],
+      "currentColor": "color-1"
     }
   ],
   "news": [
@@ -2263,6 +4139,19 @@
       "question": "Как я могу оставить заявку на обратную связь?",
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit.",
       "id": 5
+    }
+  ],
+  "publicOffer": [
+    {
+      "offer": "A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital. A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to rais capital.                                                                                                                                         A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital. \n \n A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.                                                                                                                  A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital. \n A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.                                                                              A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.                                                                                   A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital.A public offering is the sale of equity shares or other financial instruments such as bonds to the public in order to raise capital."
+    }
+  ],
+  "aboutUs": [
+    {
+      "img1": "https://i.postimg.cc/qq1jb7GZ/img1.png",
+      "img2": "https://i.postimg.cc/qvPQZS80/img2.png",
+      "img3": "https://i.postimg.cc/Z5BVH4vV/img3.png",
+      "aboutUsDesc": "У нас Вы найдёте всё, что Вам так нужно. Ассортимент магазина постоянно расширяется и дополняется в зависимости от пожеланий клиентов. Женская одежда из наших коллекций – это комфортная, стильная и качественная одежда не только на каждый день, но и для любых ситуаций по доступным ценам.Натуральные материалы, продуманные силуэты, современный дизайн и возможность легкого сочетания моделей помогут Вам всегда оставаться в центре внимания и чувствовать себя уместно в любой ситуации.Если Вы любите одеваться ярко, модно и оригинально, у нас Вы найдете все необходимое, чтобы всегда быть в центре внимания. У нас большая коллекция для любого торжества и праздника, которая сможет удовлетворить вкус самой взыскательной модницы! А для деловых ситуаций, в которых Вам непременно нужно выглядеть элегантно и стильно, мы предлагаем Вам одежду из коллекции 'деловой стиль и офис'. Мода постоянно диктует нам свои требования и для современной девушки, желающей идти в ногу со временем, важно иметь возможность постоянно пополнять свой гардероб стильной одеждой."
     }
   ]
 }

@@ -11,13 +11,14 @@
   margin-right: 24px;
   object-fit: cover;
 }
+
 .images img {
   max-width: 308px;
   width: 100%;
   max-height: 492px;
   height: 100%;
+  transition: width 0.5s ease;
 }
-
 .images div:first-child {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -53,6 +54,8 @@
   flex-direction: column;
   padding: 20px;
   gap: 16px;
+  position: sticky;
+  top: 11px;
 }
 .title {
   font-weight: 500;
@@ -182,15 +185,49 @@
 .addCart svg {
   margin-right: 12px;
 }
+.goCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 44px;
+  height: 100%;
+  background-color: #1d1d1b;
+  padding: 12px 30px 12px 18px;
+  gap: 10px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
 .addFavorite {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   background-color: #1d1d1b;
   margin-left: 8px;
-  max-height: 44px;
-  height: 100%;
-  max-width: 44px;
+  border: none;
+}
+.addFavorite img {
   width: 100%;
+  height: 100%;
+}
+.fancybox__thumbs {
+  display: none;
+}
+.fancybox__button--thumbs {
+  display: none !important;
+}
+.selected-btn {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #d6d6d6;
+  padding: 4px;
+}
+.unselected-btn {
+  border: none;
 }

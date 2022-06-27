@@ -7,15 +7,15 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "./Carousel.css";
-import carousel from "../../assets/img/carousel.png";
+import smallCarousel from "../../assets/img/smallCarousel.png";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Link } from "react-router-dom";
 
-export default function Carousel() {
+export default function SmallCarousel() {
   return (
-    <div className="slide">
+    <div className="slide mySmallSwiper">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -28,46 +28,45 @@ export default function Carousel() {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
       >
         <SwiperSlide>
-          <img className="smallCarouselimg" src={carousel} alt="carousel" />
+          <img src={smallCarousel} alt="carousel" />
         </SwiperSlide>
 
         <Link to="/goout">
           <SwiperSlide>
-            <img className="smallCarouselimg" src={carousel} alt="carousel" />
+            <img src={smallCarousel} alt="carousel" />
           </SwiperSlide>
         </Link>
 
         <SwiperSlide>
-          <img className="smallCarouselimg" src={carousel} alt="carousel" />
+          <img src={smallCarousel} alt="carousel" />
         </SwiperSlide>
 
         <Link to="/summer">
           <SwiperSlide>
-            <img className="smallCarouselimg" src={carousel} alt="carousel" />
+            <img src={smallCarousel} alt="carousel" />
           </SwiperSlide>
         </Link>
 
         <Link to="/dresses">
           <SwiperSlide>
-            <img className="smallCarouselimg" src={carousel} alt="carousel" />
+            <img src={smallCarousel} alt="carousel" />
           </SwiperSlide>
         </Link>
 
         <SwiperSlide>
-          <img className="smallCarouselimg" src={carousel} alt="carousel" />
+          <img src={smallCarousel} alt="carousel" />
         </SwiperSlide>
 
         <Link to="/skirt">
           <SwiperSlide>
-            <img className="smallCarouselimg" src={carousel} alt="carousel" />
+            <img src={smallCarousel} alt="carousel" />
           </SwiperSlide>
         </Link>
 
         <SwiperSlide>
-          <img className="smallCarouselimg" src={carousel} alt="carousel" />
+          <img src={smallCarousel} alt="carousel" />
         </SwiperSlide>
       </Swiper>
     </div>

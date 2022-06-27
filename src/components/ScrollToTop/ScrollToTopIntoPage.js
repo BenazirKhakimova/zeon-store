@@ -5,6 +5,7 @@ const ScrollToTopIntoPage = () => {
     window.scrollTo({
       top: 0,
       left: 0,
+      
     });
   };
   return <div>{move()}</div>;

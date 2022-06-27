@@ -76,21 +76,6 @@
 #logo-small {
   width: 110px;
 }
-#menu-search {
-  background: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  outline: none;
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-#menu-search::placeholder {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-}
 
 .sm-navbar {
   display: flex;
@@ -151,83 +136,30 @@
   flex-direction: row;
   gap: 10px;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  .container {
-    max-width: 920px;
-  }
-  .ant-input {
-    max-width: 370px !important;
-    height: 40px;
-  }
-  .ant-input-search-button {
-    width: 40px !important;
-    height: 40px !important;
-  }
+.ant-drawer .ant-drawer-content {
+  width: 80% !important;
+  height: 100% !important;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .container {
-    max-width: 710px;
-  }
-  .ant-input {
-    max-width: 230px !important;
-    height: 35px;
-  }
-  .ant-input-search-button {
-    width: 35px !important;
-    height: 35px !important;
-  }
-  .nav {
-    height: 75px;
-  }
-  #nav-logo {
-    width: 145px;
-  }
-  .nav-link h3 {
-    font-size: 16px;
-  }
-  .nav-phone h3 {
-    font-size: 17px;
-  }
-  .cart-favourites h3 {
-    font-size: 15px;
-  }
-  .cart-favourites img {
-    width: 22px;
-    height: 22px;
-  }
-  #nav-logo {
-    width: 140px;
-  }
+.ant-drawer-body {
+  padding: 16px !important;
 }
-@media (min-width: 480px) and (max-width: 767px) {
-  .container {
-    max-width: 460px;
-  }
-  .nav {
-    display: none;
-  }
-  .burger-menu {
-    display: block;
-  }
-  .burger-menu img {
-    width: 40px;
-  }
-  .nav-link h3 {
-    font-size: 15px;
-  }
-  .nav-phone h3 {
-    font-size: 15px;
-  }
-  .cart-favourites h3 {
-    font-size: 15px;
-  }
-  .navbar {
-    display: none;
-  }
+.ant-drawer-header {
+  padding: 16px !important;
 }
-@media (min-width: 320px) and (max-width: 479px) {
+.ant-drawer-header-title {
+  display: flex;
+  flex-direction: row-reverse !important;
+}
+.ant-badge-dot {
+  top: 3px !important;
+  right: 4px !important;
+  width: 10px !important;
+  height: 10px !important;
+  box-shadow: none !important;
+}
+@media (max-width: 320px) {
   .container {
-    max-width: 320px;
+    max-width: 290px;
   }
   .nav {
     display: none;

@@ -3,40 +3,43 @@ import "./Search.css";
 import search from "../../assets/icon/search.png";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
+import { useContext } from "react";
+import { contextProduct } from "../../context/productContext";
 
-const Search = ({ products }) => {
-  const [foundProduct, setFoundProduct] = useState([]);
+const Search = () => {
+  const { handleSearch, getValue, foundProduct, setGetValue, setFoundProduct } =
+    useContext(contextProduct);
   const [isOpen, setIsOpen] = useState(false);
-
-  let value;
-  const handleSearch = (e) => {
-    value = e.target.value;
-    let newFilter = products.filter((item) => {
-      return item.name.toLowerCase().includes(value.toLowerCase());
-    });
-    if (value === "") {
-      setFoundProduct([]);
-    } else {
-      setFoundProduct(newFilter);
-    }
-  };
-
-  let cliked = {
-    display: "block",
+  const ref = useRef(null);
+  const navigate = useNavigate();
+  let clicked = {
+    visibility: "visible",
   };
   if (!isOpen) {
-    cliked = {
+    clicked = {
       visibility: "hidden",
     };
   }
 
+  const clearInput = () => {
+    setFoundProduct([]);
+    setGetValue("");
+    ref.current.value = "";
+  };
+
   const leave = () => {
     setTimeout(() => {
       setIsOpen(false);
+      clearInput();
     }, 500);
   };
+  const handleNavigate = () => {
+    navigate(`/searchpage/${getValue}`);
+    setIsOpen(false);
+    clearInput();
+  };
 
-  const navigate = useNavigate();
   return (
     <div className="search-wrapper" onMouseLeave={() => leave()}>
       <div className="searchInput">
@@ -44,29 +47,32 @@ const Search = ({ products }) => {
           className="search"
           type="text"
           placeholder="Поиск"
+          ref={ref}
           onChange={handleSearch}
           onClick={() => setIsOpen(true)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              handleSearch();
+          onKeyPress={(e) => {
+            if (e.key === "Enter" && getValue !== "") {
+              handleNavigate();
             }
-            return;
           }}
         />
-        <div className="searchIcon">
+        <div
+          className="searchIcon"
+          onClick={() => (getValue !== "" ? handleNavigate() : null)}
+        >
           <img src={search} alt="" />
         </div>
       </div>
 
       {foundProduct.length > 0 && (
-        <div style={cliked} className="data-res">
+        <div style={clicked}className="data-res">
           <div className="results">
             {foundProduct.slice(0, 15).map((item) => (
               <div
                 onClick={() => {
-                  navigate(`/searchPage`);
-
                   setIsOpen(false);
+                  navigate(`/ditails/${item.id}`);
+                  clearInput();
                 }}
                 key={item.id}
                 className="result"

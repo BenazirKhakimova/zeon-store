@@ -6,6 +6,7 @@ export const favouritesContext = React.createContext();
 const INIT_STATE = {
   favourites: {},
   favouritesLength: 0,
+  favouritesCount: 0,
 };
 
 const reducer = (state = INIT_STATE, action) => {
@@ -14,6 +15,7 @@ const reducer = (state = INIT_STATE, action) => {
       return {
         ...state,
         favourites: action.payload,
+        favouritesLength: action.payload.products.length,
       };
     default:
       return state;
@@ -54,7 +56,7 @@ const FavouritesContextProvider = ({ children }) => {
     );
     if (isProductInFavourites) {
       favourites.products = favourites.products.filter(
-        (item) => item.element.id !== favourites.id
+        (item) => item.element.id !== favorite.id
       );
     } else {
       favourites.products.push(newFavorite);
@@ -90,11 +92,11 @@ const FavouritesContextProvider = ({ children }) => {
     localStorage.setItem("favorites", JSON.stringify(favourites));
     getFavourites();
   };
-
   return (
     <favouritesContext.Provider
       value={{
         favourites: state.favourites,
+        favouritesLength: state.favouritesLength,
         getFavourites,
         addProductToFavourites,
         checkItemInFavourites,

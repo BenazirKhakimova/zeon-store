@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./FloatingButton.css";
 import ExitIcon from "../../assets/icon/call back.png";
 import ChatIcon from "../../assets/icon/call back (1).png";
@@ -54,20 +54,19 @@ function FloatingButton() {
       phone: "",
     },
     validate,
-    onSubmit: (values) => {
+    onSubmit: (values, { resetForm }) => {
       postCallBack(values, null, 2);
+      resetForm({ values: "" });
     },
   });
 
   let styleVisible = {
     visibility: "visible",
+    width: "320px",
   };
 
-  const visibleSecondModal = () => {
-    setTimeout(() => {
-      setModal2Visible(true);
-    }, 700);
-  };
+  const clearInput = () => {};
+
   return (
     <div className="container floating-button-wrapper">
       <div id="float-buttons">
@@ -88,19 +87,19 @@ function FloatingButton() {
                   <img src={MoveUpIcon} onClick={() => MoveUp()} />
                 </div>
                 <div className="icons-wrapper">
+                  <a target="_blank" href={item.whatsapp}>
+                    <img src={WhatsAppIcon} alt="" />
+                  </a>
+
+                  <a target="_blank" href={item.telegram}>
+                    <img src={TelegramIcon} alt="" />
+                  </a>
+
                   <img
                     src={TelephoneIcon}
                     alt=""
                     onClick={() => setModal1Visible(true)}
                   />
-
-                  <a target="_blank" href={item.telegram}>
-                    <img src={TelegramIcon} alt="" />
-                  </a>
-                  <a target="_blank" href={item.whatsapp}>
-                    <img src={WhatsAppIcon} alt="" />
-                  </a>
-
                   <img
                     id="close"
                     src={ExitIcon}
@@ -119,69 +118,72 @@ function FloatingButton() {
                   className="first-modal"
                   style={styleVisible}
                 >
-                  <form className="fb-modal" onSubmit={formik.handleSubmit}>
-                    <div className="modal-text">
-                      <h3>Если у Вас остались вопросы</h3>
-                      <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
-                    </div>
+                  <>
+                    <form className="fb-modal" onSubmit={formik.handleSubmit}>
+                      <div className="modal-text">
+                        <h3>Если у Вас остались вопросы</h3>
+                        <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
+                      </div>
 
-                    <div className="modal-inp">
-                      <input
-                        className="first-inp placeholder type"
-                        type="text"
-                        placeholder="Как к Вам обращаться?"
-                        id="firstName"
-                        name="firstName"
-                        onChange={formik.handleChange}
-                        value={formik.values.firstName}
-                      />
-                      {formik.errors.firstName ? (
-                        <div className="error">{formik.errors.firstName}</div>
-                      ) : null}
+                      <div className="modal-inp">
+                        <input
+                          className="first-inp placeholder type"
+                          type="text"
+                          placeholder="Как к Вам обращаться?"
+                          id="firstName"
+                          name="firstName"
+                          onChange={formik.handleChange}
+                          value={formik.values.firstName}
+                        />
+                        {formik.errors.firstName ? (
+                          <div className="error">{formik.errors.firstName}</div>
+                        ) : null}
 
-                      <input
-                        className="second-inp placeholder type"
-                        type="text"
-                        placeholder="Номер телефона"
-                        id="phone"
-                        name="phone"
-                        onChange={formik.handleChange}
-                        value={formik.values.phone}
-                      />
-                      {formik.errors.phone ? (
-                        <div className="error">{formik.errors.phone}</div>
-                      ) : null}
+                        <input
+                          className="second-inp placeholder type"
+                          type="text"
+                          placeholder="Номер телефона"
+                          id="phone"
+                          name="phone"
+                          onChange={formik.handleChange}
+                          value={formik.values.phone}
+                        />
+                        {formik.errors.phone ? (
+                          <div className="error">{formik.errors.phone}</div>
+                        ) : null}
 
-                      {formik.errors.phone ? (
-                        <button
-                          disabled="disabled"
-                          type="button"
-                          className="btn-modal btn-1"
-                        >
-                          Заказать Звонок
-                        </button>
-                      ) : formik.errors.firstName ? (
-                        <button
-                          disabled="disabled"
-                          type="button"
-                          className="btn-modal btn-1"
-                        >
-                          Заказать Звонок
-                        </button>
-                      ) : (
-                        <button
-                          type="submit"
-                          onClick={() => {
-                            setModal1Visible(false);
-                            visibleSecondModal();
-                          }}
-                          className="btn-modal btn-2"
-                        >
-                          Заказать Звонок
-                        </button>
-                      )}
-                    </div>
-                  </form>
+                        {formik.errors.phone || !formik.values.phone ? (
+                          <button
+                            disabled="disabled"
+                            type="button"
+                            className="btn-modal btn-1"
+                          >
+                            Заказать Звонок
+                          </button>
+                        ) : formik.errors.firstName ||
+                          !formik.values.firstName ? (
+                          <button
+                            disabled="disabled"
+                            type="button"
+                            className="btn-modal btn-1"
+                          >
+                            Заказать Звонок
+                          </button>
+                        ) : (
+                          <button
+                            type="submit"
+                            onClick={() => {
+                              setModal1Visible(false);
+                              setModal2Visible(true);
+                            }}
+                            className="btn-modal btn-2"
+                          >
+                            Заказать Звонок
+                          </button>
+                        )}
+                      </div>
+                    </form>
+                  </>
                 </Modal>
                 <Modal
                   centered
@@ -189,7 +191,8 @@ function FloatingButton() {
                   onOk={() => setModal2Visible(false)}
                   onCancel={() => setModal2Visible(false)}
                   footer={null}
-                  className="second-modal-wrapper"
+                  id="second-modal-wrapper"
+                  style={{ width: "350px" }}
                 >
                   <div className="second-modal">
                     <img src={check} alt="check" />
@@ -200,11 +203,15 @@ function FloatingButton() {
                       </h3>
                     </div>
 
-                    <Link to={novigate - 1}>
-                      <button className="btn-modal btn-3">
-                        Продолжить покупки
-                      </button>
-                    </Link>
+                    <button
+                      onClick={() => {
+                        novigate(-1);
+                        setModal2Visible(false);
+                      }}
+                      className="btn-modal btn-3"
+                    >
+                      Продолжить покупки
+                    </button>
                   </div>
                 </Modal>
               </div>

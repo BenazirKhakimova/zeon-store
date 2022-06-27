@@ -27,7 +27,7 @@ const Routing = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 1000);
   }, []);
   const ROUTES = [
     {
@@ -103,35 +103,30 @@ const Routing = () => {
       id: 11,
     },
     {
-      path: "/searchPage",
+      path: "/searchPage/:getValue",
       element: <SearchPage />,
       id: 11,
     },
   ];
   return (
     <>
-      {" "}
-      {isLoading === true ? (
-        <Loading />
-      ) : (
-        <BrowserRouter>
-          <ScrollToTop />
-          <Header />
-          <Routes>
-            {ROUTES.map((item) => (
-              <Route
-                exact
-                key={item.id}
-                path={item.path}
-                element={item.element}
-              />
-            ))}
-            <Route path="*" element={<Error404 />} />
-          </Routes>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Header />
+        <Routes>
+          {ROUTES.map((item) => (
+            <Route
+              exact
+              key={item.id}
+              path={item.path}
+              element={item.element}
+            />
+          ))}
+          <Route path="*" element={<Error404 />} />
+        </Routes>
 
-          <Footer />
-        </BrowserRouter>
-      )}
+        <Footer />
+      </BrowserRouter>
     </>
   );
 };

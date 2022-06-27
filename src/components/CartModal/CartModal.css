@@ -1,0 +1,179 @@
+.cart-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart-modal-label {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0 0 4px 0;
+  color: #808080;
+}
+
+.cart-modal-input {
+  width: 410px;
+  height: 44px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 8px;
+  padding-left: 10px;
+  outline: none;
+  background-color: white;
+}
+
+.cart-modal-input::placeholder {
+  font-family: "Montserrat";
+  color: #d0d0d0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cart-modal-button {
+  width: 410px;
+  height: 44px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    #1d1d1b;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 22px 0 0 0;
+  font-family: "Montserrat";
+}
+.active-button {
+  width: 410px;
+  height: 44px;
+  background: #1d1d1b;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 22px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+.phone-input {
+  font-family: "Montserrat";
+  width: 410px;
+  height: 44px;
+  border: 1px solid #e7e7e7;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.PhoneInputCountryIcon--border {
+  box-shadow: none;
+  margin-left: 10px;
+}
+
+.PhoneInputCountryIconImg {
+  border-radius: 3px;
+}
+
+.PhoneInputInput {
+  border: none;
+  outline: none;
+  margin: 0;
+  box-shadow: none;
+}
+
+.PhoneInputInput::placeholder {
+  color: #d0d0d0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cart-modal-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #d0d0d0;
+  margin-right: 10px;
+}
+
+[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.email-label {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 13px;
+  color: #808080;
+}
+
+.email-input {
+  width: 410px;
+  height: 44px;
+  border: 1px solid #e7e7e7;
+  position: relative;
+  padding-left: 10px;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.email-input::placeholder {
+  font-family: "Montserrat";
+  color: #d0d0d0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.PhoneInputCountryIcon--border {
+  box-shadow: none;
+}
+
+input[type="checkbox"] {
+  accent-color: #393939;
+}
+
+.phone-input::placeholder {
+  color: #d0d0d0;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+
+.PhoneInputCountryIcon--border {
+  box-shadow: none !important;
+}
+.ant-modal-content {
+  width: auto !important;
+}
+.cart-modal-link {
+  text-decoration: none;
+  color: #2f80ed;
+  margin-left: 5px;
+  text-align: center;
+}
+.lable {
+  font-family: "Inter";
+}
+.ant-modal-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #393939;
+}
+.ant-modal-body {
+  margin-top: -18px !important;
+}
+.ant-modal {
+  width: auto !important;
+}
+.ant-modal-header {
+  padding: 12px 15px !important;
+  border: none !important;
+}
+.cart-modal {
+  display: flex;
+  flex-direction: column;
+}
+.cart-modal div {
+  display: flex;
+  flex-direction: row;
+}

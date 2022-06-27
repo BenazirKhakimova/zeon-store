@@ -48,9 +48,10 @@
 }
 .loading {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   background-color: white;
+  padding-top: 60px;
   width: 100vw;
   height: 100vh;
 }
@@ -83,4 +84,10 @@
   background-color: #1d1d1bad;
   transform: translateY(4px);
   border: #1d1d1bad;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  gap: 8px;
 }

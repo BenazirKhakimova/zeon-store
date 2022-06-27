@@ -4,6 +4,8 @@ import { Empty } from "antd";
 import axios from "axios";
 import FloatingButton from "../../components/FloatingButtons/FloatingButton";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
+import { useContext } from "react";
+import { contextProduct } from "../../context/productContext";
 
 const News = () => {
   const [news, setNews] = useState([]);
@@ -11,15 +13,20 @@ const News = () => {
   const [fetching, setFetching] = useState(true);
   const [totalCount, setTotalCount] = useState(0);
 
+  const { getProducts } = useContext(contextProduct);
+  useEffect(() => {
+    getProducts();
+  }, []);
+
   const API = "http://localhost:8000/news";
 
   useEffect(() => {
     if (fetching) {
       axios
         .get(`${API}?_page=${currentPage}&_limit=8`)
-        .then((response) => {
-          setTotalCount(response.headers["x-total-count"]);
-          setNews([...news, ...response.data]);
+        .then((res) => {
+          setTotalCount(res.headers["x-total-count"]);
+          setNews([...news, ...res.data]);
           setCurrentPage((currentPage) => currentPage + 1);
         })
         .finally(() => {

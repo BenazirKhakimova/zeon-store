@@ -6,10 +6,11 @@ import arrow from "../../assets/icon/acc-arrow.png";
 import { contextProduct } from "../../context/productContext";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 const Help = () => {
-  const { data, getData } = useContext(contextProduct);
+  const { data, getData, getProducts } = useContext(contextProduct);
 
   useEffect(() => {
     getData();
+    getProducts();
   }, []);
 
   const [selected, setSelected] = useState(null);

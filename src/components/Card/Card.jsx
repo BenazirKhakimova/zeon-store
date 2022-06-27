@@ -1,29 +1,62 @@
 import React from "react";
 import "./Card.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import fav from "../../assets/icon/favourites.png";
 import favActive from "../../assets/icon/favourites1.png";
 import discount from "../../assets/icon/discount.png";
 import { useState } from "react";
 import { useContext } from "react";
 import { favouritesContext } from "../../context/favouritesContext";
-
 const Card = ({ item }) => {
   const {
     addProductToFavourites,
     checkItemInFavourites,
     deleteItemFromFavourites,
   } = useContext(favouritesContext);
+
+  const [visible, setVisible] = useState(true);
+  const [selected, setSelected] = useState(item.currentColor);
+  const [img, setImg] = useState(item.image1);
+  const [hover, setHover] = useState("first");
   const [checkProduct, setCheckProduct] = useState(
     checkItemInFavourites(item.id)
   );
+
   let res;
   if (item.discaunt) {
-    res = (item.price % 100) * item.discaunt;
+    res = Math.ceil((item.price / 100) * item.discaunt);
   }
-  const [visible, setVisible] = useState(true);
-  const [activeColor, setActiveColor] = useState("blue");
-  const [selected, setSelected] = useState(null);
+
+  const handleMove = (e) => {
+    let offsetX = e.nativeEvent.offsetX;
+    let imgWidth = e.target.clientWidth;
+    let specWidth = Math.ceil(imgWidth / 6);
+
+    if (offsetX > 1 && offsetX < specWidth) {
+      setImg(item.image6);
+      setHover("second");
+    } else if (offsetX > specWidth && offsetX < specWidth * 2) {
+      setImg(item.image5);
+      setHover("third");
+    } else if (offsetX > specWidth * 2 && offsetX < specWidth * 3) {
+      setImg(item.image3);
+      setHover("fourth");
+    } else if (offsetX > specWidth * 3 && offsetX < specWidth * 4) {
+      setImg(item.image4);
+      setHover("fifth");
+    } else if (offsetX > specWidth * 4 && offsetX < specWidth * 5) {
+      setImg(item.image2);
+      setHover("sixth");
+    } else if (offsetX > specWidth * 5 && offsetX < specWidth * 6) {
+      setImg(item.image6);
+      setHover("seventh");
+    }
+  };
+
+  const handleLeave = () => {
+    setImg(item.image1);
+    setHover("first");
+  };
 
   return (
     <div className="container">
@@ -31,25 +64,13 @@ const Card = ({ item }) => {
         <Link to={`/ditails/${item.id}`}>
           <img
             id="img-rel"
-            src={
-              activeColor === "blue"
-                ? item.image1
-                : activeColor === "green"
-                ? item.image2
-                : activeColor === "grey"
-                ? item.image3
-                : activeColor === "brown"
-                ? item.image4
-                : activeColor === "darkBlue"
-                ? item.image5
-                : activeColor === "white"
-                ? item.image6
-                : activeColor === "black"
-                ? item.image7
-                : activeColor === "red"
-                ? item.image8
-                : null
-            }
+            onMouseMove={(e) => {
+              handleMove(e);
+            }}
+            onMouseLeave={() => {
+              handleLeave();
+            }}
+            src={img}
             alt="Clothes"
           />
         </Link>
@@ -82,7 +103,7 @@ const Card = ({ item }) => {
             alt=""
           />
         )}
-
+        <div className={hover}></div>
         <div className="card-footer">
           <span>{item.name}</span>
 
@@ -96,58 +117,24 @@ const Card = ({ item }) => {
               <span id="price">{item.price + " p"}</span>
             )}
           </div>
-          <span id="size">{item.size}</span>
-          <div className="color-wrapper">
-            <div className={selected ? "activeColor" : null}>
-              <div
-                id={`${item.color1}`}
-                onClick={() => {
-                  setActiveColor("blue");
-                  setSelected(true);
-                }}
-                className="size-circle"
-              ></div>
-            </div>
+          <span id="size">{"Размер: " + item.size}</span>
 
-            <div className={selected ? activeColor : null}>
+          {/* ************************************************************** */}
+          <div className="color-wrapper">
+            {item.colors.map((color) => (
               <div
-                id={`${item.color2}`}
+                key={item.id + color.color}
                 onClick={() => {
-                  setActiveColor("blue");
+                  setSelected(color.color);
                 }}
-                className="size-circle"
-              ></div>
-            </div>
-            <div
-              id={`${item.color3}`}
-              onClick={() => setActiveColor("grey")}
-              className="size-circle"
-            ></div>
-            <div
-              id={`${item.color4}`}
-              onClick={() => setActiveColor("brown")}
-              className="size-circle"
-            ></div>
-            <div
-              id={`${item.color5}`}
-              onClick={() => setActiveColor("darkBlue")}
-              className="size-circle"
-            ></div>
-            <div
-              id={`${item.color6}`}
-              onClick={() => setActiveColor("white")}
-              className="size-circle"
-            ></div>
-            <div
-              id={`${item.color7}`}
-              onClick={() => setActiveColor("black")}
-              className="size-circle"
-            ></div>
-            <div
-              id={`${item.color8}`}
-              onClick={() => setActiveColor("red")}
-              className="size-circle"
-            ></div>
+                className={
+                  selected === color.color ? "activeColor" : "inActiveColor"
+                }
+              >
+                <div id={color.color} className="size-circle"></div>
+              </div>
+            ))}
+            {/* ************************************************************** */}
           </div>
         </div>
       </div>

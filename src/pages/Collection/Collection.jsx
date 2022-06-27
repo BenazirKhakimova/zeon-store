@@ -6,8 +6,9 @@ import { contextProduct } from "../../context/productContext";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 const Collection = () => {
-  const { collections, getCollections, productsCount } =
+  const { collections, getCollections, productsCount, getProducts } =
     useContext(contextProduct);
+
   const [searchParams, setSearchParams] = useSearchParams();
   const [page, setPage] = useState(
     searchParams.get("_page") ? searchParams.get("_page") : 1
@@ -16,6 +17,7 @@ const Collection = () => {
 
   useEffect(() => {
     getCollections();
+    getProducts();
   }, []);
 
   useEffect(() => {
@@ -36,36 +38,26 @@ const Collection = () => {
         <h2 id="title">Коллекции</h2>
       </div>
       <div className="container grid">
-        {collections.length > 0 ? (
-          collections.map((item) => (
-            <Card
-              key={item.id}
-              style={{
-                width: "286px",
-                height: "374px",
-                overflow: "hidden",
-                marginTop: "18px",
-              }}
-            >
-              <img className="collec-img" src={item.collImg} alt="img" />
-              <h3 id="collec-title">{item.title}</h3>
-              <Link to={`${item.link}`}>
-                <button className="collec-btn">Смотреть все</button>
-              </Link>
-            </Card>
-          ))
-        ) : (
-          <div
-            className="container"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Empty />
-          </div>
-        )}
+        {collections.length > 0
+          ? collections.map((item) => (
+              <Card
+                key={item.id}
+                style={{
+                  width: "286px",
+                  height: "374px",
+                  overflow: "hidden",
+                  marginTop: "18px",
+                }}
+              >
+                <Link to={`${item.link}`}>
+                  <img className="collec-img" src={item.collImg} alt="img" />
+                  <h3 id="collec-title">{item.title}</h3>
+
+                  <button className="collec-btn">Смотреть все</button>
+                </Link>
+              </Card>
+            ))
+          : null}
       </div>
       <div className="container pagination">
         <Pagination
