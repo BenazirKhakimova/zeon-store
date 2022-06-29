@@ -104,3 +104,43 @@
   font-size: 14px;
   color: #1d1d1b;
 }
+.d-none {
+  display: none;
+}
+@media (max-width: 320px) {
+  .search-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0000004d;
+    z-index: 60;
+  }
+  .hide-search{
+    display: none;
+  }
+  .search-wrapper:focus {
+    display: none;
+  }
+  .searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    z-index: 70;
+    left: 0%;
+    bottom: 89%;
+    padding: 10px;
+  }
+  .data-res {
+    padding: 42px 5px 19px 11px;
+    position: absolute;
+    width: 94%;
+    max-height: 60%;
+    left: 3%;
+    top: 2%;
+  }
+}

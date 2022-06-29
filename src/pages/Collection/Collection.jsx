@@ -4,6 +4,7 @@ import "./Collection.css";
 import { Link, useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
+import ScrollToTopIntoPage from "../../components/ScrollToTop/ScrollToTopIntoPage";
 
 const Collection = () => {
   const { collections, getCollections, productsCount, getProducts } =
@@ -34,6 +35,7 @@ const Collection = () => {
   return (
     <>
       <BreadCrumb />
+      <ScrollToTopIntoPage/>
       <div className="container">
         <h2 id="title">Коллекции</h2>
       </div>
@@ -42,12 +44,7 @@ const Collection = () => {
           ? collections.map((item) => (
               <Card
                 key={item.id}
-                style={{
-                  width: "286px",
-                  height: "374px",
-                  overflow: "hidden",
-                  marginTop: "18px",
-                }}
+                className="collec-card"
               >
                 <Link to={`${item.link}`}>
                   <img className="collec-img" src={item.collImg} alt="img" />

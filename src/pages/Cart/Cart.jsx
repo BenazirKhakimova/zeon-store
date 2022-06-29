@@ -1,5 +1,5 @@
 // import { click } from "@testing-library/user-event/dist/click";
-import React from "react";
+import React, { useState } from "react";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import "./Cart.css";
 import minus from "../../assets/icon/minus.png";
@@ -12,10 +12,13 @@ import { cartContext } from "../../context/cartContext";
 import { useNavigate } from "react-router-dom";
 import Card from "../../components/Card/Card";
 import CartModal from "../../components/CartModal/CartModal";
+import CardCarousel from "../../components/CardCarousel/CardCarousel";
+import SimilarCarousel from "../../components/CardCarousel/SimilarCarousel";
 function Cart() {
   const { getProducts, products } = useContext(contextProduct);
   const { cart, getCart, cartLength, deleteProductfromCart, countOfProduct } =
     useContext(cartContext);
+  const [showInfo, setShowInfo] = useState(true);
 
   useEffect(() => {
     getProducts();
@@ -28,6 +31,16 @@ function Cart() {
       ? (discount += item.product.price - item.count * item.productDiscount)
       : 0
   );
+
+  const changeLinesText = () => {
+    if (cart?.totalCount === 1) {
+      return " линия ";
+    } else if (cart?.totalCount === 2) {
+      return " линии ";
+    } else {
+      return " линеек ";
+    }
+  };
   return (
     <div>
       <BreadCrumb />
@@ -132,31 +145,59 @@ function Cart() {
           <div className="busket">
             <div className="busket-items">
               <div>
-                <div>
-                  <p id="sum">Сумма заказа</p>
+                <div
+                  className={
+                    showInfo ? "busket-info-none" : "busket-info-block"
+                  }
+                >
+                  <div>
+                    <p id="sum">Сумма заказа</p>
+                  </div>
+                  <div className="busket-item item-none">
+                    <p className="left-side">Количество линеек: </p>
+                    <p className="right-side ">{cart?.totalCount + " шт"}</p>
+                  </div>
+                  <div className="busket-item item-show">
+                    <p className="left-side">Общее количество: </p>
+                    <p className="right-side">
+                      {cart?.totalCount +
+                        changeLinesText() +
+                        "(" +
+                        5 * cart?.totalCount +
+                        " шт.)"}
+                    </p>
+                  </div>
+
+                  <div className="busket-item">
+                    <p className="left-side item-none">Количество товаров: </p>
+                    <p className="right-side item-none">
+                      {5 * cart?.totalCount + " шт"}
+                    </p>
+                  </div>
+                  <div className="busket-item">
+                    <p className="left-side">Стоимость:</p>
+                    <p className="right-side">{cart?.totalPrice + " рублей"}</p>
+                  </div>
+                  <div className="busket-item">
+                    <p className="left-side">Скидка: </p>
+                    <p className="right-side">{discount + " рублей"}</p>
+                  </div>
+                  <div id="dashed"></div>
                 </div>
-                <div className="busket-item">
-                  <p className="left-side">Количество линеек: </p>
-                  <p className="right-side">{cart?.totalCount + " шт"}</p>
-                </div>
-                <div className="busket-item">
-                  <p className="left-side">Количество товаров: </p>
-                  <p className="right-side">{5 * cart?.totalCount + " шт"}</p>
-                </div>
-                <div className="busket-item">
-                  <p className="left-side">Стоимость:</p>
-                  <p className="right-side">{cart?.totalPrice + " рублей"}</p>
-                </div>
-                <div className="busket-item">
-                  <p className="left-side">Скидка: </p>
-                  <p className="right-side">{discount + " рублей"}</p>
-                </div>
-                <div id="dashed"></div>
                 <div className="busket-item">
                   <p className="left-side">Итого к оплате: </p>
                   <p className="right-side">
                     {cart?.totalPrice - discount + " рублей"}
                   </p>
+                </div>
+                <div className="show-info">
+                  {showInfo ? (
+                    <button onClick={() => setShowInfo(false)}>
+                      Информация о заказе
+                    </button>
+                  ) : (
+                    <button onClick={() => setShowInfo(true)}>Скрыть</button>
+                  )}
                 </div>
                 <CartModal />
               </div>
@@ -173,6 +214,9 @@ function Cart() {
               {products.slice(0, 5).map((item) => (
                 <Card key={item.id} item={item} />
               ))}
+            </div>
+            <div className="container card-carousel-wrapper">
+              <SimilarCarousel />
             </div>
           </div>
         </div>

@@ -11,3 +11,9 @@
 .search-card-wrapper {
   margin-bottom: 64px;
 }
+@media (max-width: 320px) {
+  #search-res {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

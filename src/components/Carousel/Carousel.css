@@ -16,7 +16,6 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -41,7 +40,6 @@
 .swiper-pagination-bullet {
   height: 8px;
   width: 8px;
-  background: #ffffff;
   border: 1px solid rgba(29, 29, 27, 0.3);
   border-radius: 4px;
 }

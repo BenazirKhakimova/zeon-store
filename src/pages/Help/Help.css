@@ -66,3 +66,25 @@
 .rotate {
   transform: rotate(0deg);
 }
+@media (max-width: 320px) {
+  .help-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 15px;
+  }
+  .help-img {
+    width: 100%;
+  }
+  .items {
+    width: 100%;
+  }
+  .title h3 {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+  }
+  .content p {
+    font-size: 12px;
+  }
+}

@@ -7,38 +7,41 @@ import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import { contextProduct } from "../../context/productContext";
 import "./AboutUs.css";
 const AboutUs = () => {
-  const { getProducts } = useContext(contextProduct);
+  const { getProducts, aboutUs, getAboutUs } = useContext(contextProduct);
   useEffect(() => {
     getProducts();
+    getAboutUs()
   }, []);
   return (
     <>
       <BreadCrumb />
-      <div className="container about_wrapper">
-        <div style={{ display: "flex", gap: "24px" }}>
-          <div style={{ gap: "24px" }}>
-            <div>
-              <img src={img1} alt="" />
-            </div>
+      {aboutUs.length > 0
+        ? aboutUs.map((item) => (
+            <div className="container about_wrapper">
+              <div className="about-img-wrapper">
+                <div className="about-images">
+                  <div>
+                    <img className="first-img" src={item.img1} alt="" />
+                  </div>
 
-            <br />
-            <div>
-              <img src={img2} alt="" />
+                  <br />
+                  <div>
+                    <img src={item.img2} alt="" />
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <img src={item.img3} alt="" />
+                </div>
+              </div>
+              <div className="about-us-body">
+                <div className="about-us-desc">
+                  <h2>О нас</h2>
+                  <p>{item.aboutUsDesc}</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div style={{ display: "flex", alignItems: "center" }}>
-            <img src={img3} alt="" />
-          </div>
-        </div>
-        <div className="about-us-body">
-          <div className="about-us-desc">
-            <h2>О нас</h2>
-            <p>
-              
-            </p>
-          </div>
-        </div>
-      </div>
+          ))
+        : null}
     </>
   );
 };

@@ -1,16 +1,7 @@
-import React, { useCallback, useContext, useEffect } from "react";
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import React, { useContext, useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { useState } from "react";
 
-// Import Swiper React components
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-
-import "./styles.css";
-
-// import required modules
 import "./DitailsProduct.css";
 import { contextProduct } from "../../context/productContext";
 import cart from "../../assets/icon/cart.png";
@@ -22,6 +13,9 @@ import IntoPage from "../../components/BreadCrumb/IntoPage";
 import { cartContext } from "../../context/cartContext";
 import Card from "../../components/Card/Card";
 import Loading from "../../components/Loading/Loading";
+import OneProductCarousel from "./OneProductCarousel";
+import CardCarousel from "../../components/CardCarousel/CardCarousel";
+import SimilarCarousel from "../../components/CardCarousel/SimilarCarousel";
 
 const DitailsProduct = () => {
   const {
@@ -82,8 +76,14 @@ const DitailsProduct = () => {
       {oneProduct ? (
         <>
           <div className="wrap container">
-            <div className="sliderImages"></div>
-            <FancyboxDitails />
+            <div className="one-product-slider">
+              <FancyboxDitails />
+            </div>
+
+            <div className="container one-product-carousel">
+              <OneProductCarousel />
+            </div>
+
             <div className="info">
               <div className="innerInfo">
                 <h1 className="productTitle">{oneProduct.name}</h1>
@@ -221,11 +221,14 @@ const DitailsProduct = () => {
             </div>
           </div>
           <div className="container">
-            <h2 id="title">Похожие товары</h2>
+            <h2 id="centered">Похожие товары</h2>
             <div className="flex">
               {products.slice(0, 5).map((item) => (
                 <Card key={item.id} item={item} />
               ))}
+            </div>
+            <div className="container card-carousel-wrapper">
+              <SimilarCarousel />
             </div>
           </div>
         </>

@@ -5,6 +5,8 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import Card from "../../components/Card/Card";
 import Breadcrumb from "antd/lib/breadcrumb";
+import CardCarousel from "../CardCarousel/CardCarousel";
+import SimilarCarousel from "../CardCarousel/SimilarCarousel";
 const SearchPage = () => {
   const { products, getProducts } = useContext(contextProduct);
   const [limit, setLimit] = useState(8);
@@ -74,6 +76,9 @@ const SearchPage = () => {
               {products.slice(0, 5).map((item) => (
                 <Card key={item.id} item={item} />
               ))}
+            </div>
+            <div className="container card-carousel-wrapper">
+              <SimilarCarousel />
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Help = () => {
       <BreadCrumb />
       <div className="container help-wrapper">
         <div>
-          <img src={img} alt="" />
+          <img className="help-img" src={img} alt="" />
         </div>
         <div className="accordion-wrapper">
           <div className="accordion">

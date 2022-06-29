@@ -158,9 +158,6 @@
   box-shadow: none !important;
 }
 @media (max-width: 320px) {
-  .container {
-    max-width: 290px;
-  }
   .nav {
     display: none;
   }
@@ -181,5 +178,17 @@
   }
   .navbar {
     display: none;
+  }
+  .ant-badge-dot {
+    width: 8px !important;
+    height: 8px !important;
+  }
+  .navbar-wrapper {
+    position: relative;
+  }
+  .first-modal {
+    position: absolute !important;
+    top: 30% !important;
+    left: 2% !important;
   }
 }

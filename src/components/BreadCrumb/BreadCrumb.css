@@ -16,3 +16,21 @@
 .ant-breadcrumb a {
   color: #393939 !important;
 }
+@media (max-width: 320px) {
+  .ant-breadcrumb {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    width: max-content;
+  }
+  .ant-breadcrumb-separator {
+    margin: 0 5px !important;
+  }
+  .breadcrumb-wrapper {
+    height: 58px;
+    overflow-x: auto;
+  }
+  .breadcrumb-wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

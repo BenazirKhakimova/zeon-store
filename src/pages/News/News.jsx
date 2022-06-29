@@ -54,6 +54,15 @@ const News = () => {
     }
   };
 
+  const [clicked, setclicked] = useState(null);
+
+  const toggle = (i) => {
+    if (clicked === i) {
+      return setclicked(null);
+    }
+
+    setclicked(i);
+  };
   return (
     <>
       <BreadCrumb />
@@ -63,13 +72,22 @@ const News = () => {
       </div>
       <div className="container news-body">
         {news.length > 0 ? (
-          news.map((item) => (
+          news.map((item, i) => (
             <div className="news-box-wrapper" key={item.id}>
               <div className="news-box">
                 <img src={item.img} alt="" />
                 <div>
                   <h3>{item.heading}</h3>
-                  <p>{item.description}</p>
+                  <p className={clicked === i ? "showDesc" : "closeDesc"}>
+                    {item.description}
+                  </p>
+                  <div className="hews-btn-wrapper" onClick={() => toggle(i)}>
+                    {clicked === i ? (
+                      <button>Скрыть</button>
+                    ) : (
+                      <button>Читать полностью</button>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

@@ -13,8 +13,7 @@
   padding: 16px;
   gap: 10px;
 
-  width: 1168px;
-  height: 258px;
+  width: 100%;
 
   background: #ffffff;
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.02);
@@ -34,14 +33,59 @@
   line-height: 20px;
   color: #393939;
 }
-.news-box p {
+.closeDesc {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 165%;
+  height: 180px;
+  overflow: hidden;
+}
+.showDesc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 165%;
+  height: auto;
+  overflow: hidden;
 }
 .news-box img {
   width: 226px;
   height: 226px;
+}
+.hews-btn-wrapper {
+  display: none;
+}
+.hews-btn-wrapper button {
+  padding: 8px 16px;
+  gap: 8px;
+  width: 264px;
+  height: 32px;
+  border: 1px solid #ededed;
+  background-color: #ffffff;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1d1d1b;
+}
+@media (max-width: 320px) {
+  .news-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-box img {
+    width: 264px;
+    height: 226px;
+  }
+  .hews-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

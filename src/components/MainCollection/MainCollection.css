@@ -4,3 +4,15 @@
   justify-content: center;
   margin-top: 44px;
 }
+@media (max-width: 320px) {
+  .collection-wrapper{
+    display: none;
+
+  }
+  .card-carousel-wrapper{
+    display: block;
+  }
+  .collection-title-wrapper{
+    margin-top: 22px;
+  }
+}

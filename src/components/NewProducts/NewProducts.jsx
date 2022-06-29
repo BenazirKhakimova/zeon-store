@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import Card from "../Card/Card";
+import CardCarousel from "../CardCarousel/CardCarousel";
 import "./NewProducts.css";
 const NewProducts = () => {
   const { getProducts, products } = useContext(contextProduct);
@@ -44,6 +45,11 @@ const NewProducts = () => {
           ? slice.map((item) => <Card key={item.id} item={item} />)
           : null}
       </div>
+
+      <div className="container card-carousel-wrapper">
+        <CardCarousel />
+      </div>
+
       <div className="also-wrapper">
         <button style={visible} onClick={() => loadMore()}>
           Ещё

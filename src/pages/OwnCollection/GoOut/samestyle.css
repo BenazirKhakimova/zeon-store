@@ -1,0 +1,11 @@
+@media (max-width: 320px) {
+    .flex {
+      display: none;
+    }
+    .card-carousel-wrapper {
+      display: block;
+    }
+    #title {
+      text-align: center;
+    }
+  }

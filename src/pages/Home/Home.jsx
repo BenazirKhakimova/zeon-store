@@ -19,7 +19,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1300);
+    }, 1500);
   }, []);
   return isLoading ? (
     <Loading />
@@ -27,11 +27,12 @@ const Home = () => {
     <div>
       {move()}
       <FloatingButton />
-      {window.innerHeight < 320 ? <Carousel /> : <SmallCarousel />}
-      {/* <Hits />
+      <Carousel />
+      <SmallCarousel />
+      <Hits />
       <NewProducts />
       <MainCollection />
-      <Advantages /> */}
+      <Advantages />
     </div>
   );
 };

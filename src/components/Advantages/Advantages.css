@@ -29,9 +29,9 @@
 }
 .boxes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .box {
   display: flex;
@@ -65,4 +65,21 @@
   letter-spacing: 0.04em;
   color: #979797;
   padding-bottom: 24px;
+}
+@media (max-width: 320px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .wrapper {
+    height: 248px;
+  }
+  .boxes-wrapper {
+    margin-bottom: 196px;
+  }
+  .advantages h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
 }

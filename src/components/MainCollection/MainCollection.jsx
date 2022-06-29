@@ -3,6 +3,9 @@ import { Card } from "antd";
 import { Link } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import "./MainCollection.css";
+
+import MainColectionCard from "./MainColectionCard";
+import CollectionCarousel from "./CollectionCarousel";
 const MainCollection = () => {
   const { collections, getCollections } = useContext(contextProduct);
   const [items, setItems] = useState(4);
@@ -10,7 +13,7 @@ const MainCollection = () => {
   useEffect(() => {
     getCollections();
   }, []);
-  const slice = collections.slice(0, items);
+  const collec = collections.slice(0, items);
 
   const loadMore = () => {
     setItems(items + items);
@@ -29,26 +32,15 @@ const MainCollection = () => {
       <div className="container collection-title-wrapper">
         <h3 id="hits-title">Коллекции</h3>
       </div>
-      <div className="container grid">
-        {slice.length > 0
-          ? slice.map((item) => (
-              <Card
-                key={item.id}
-                style={{
-                  width: "286px",
-                  height: "374px",
-                  overflow: "hidden",
-                  marginTop: "18px",
-                }}
-              >
-                <img className="collec-img" src={item.collImg} alt="img" />
-                <h3 id="collec-title">{item.title}</h3>
-                <Link to={`${item.link}`}>
-                  <button className="collec-btn">Смотреть все</button>
-                </Link>
-              </Card>
+      <div className="container grid collection-wrapper">
+        {collec.length > 0
+          ? collec.map((item) => (
+              <MainColectionCard item={item} key={item.id} />
             ))
           : null}
+      </div>
+      <div className="container card-carousel-wrapper">
+        <CollectionCarousel />
       </div>
       <div className="also-wrapper">
         <button

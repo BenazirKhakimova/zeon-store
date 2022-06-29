@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./FloatingButton.css";
 import ExitIcon from "../../assets/icon/call back.png";
 import ChatIcon from "../../assets/icon/call back (1).png";
@@ -12,7 +12,7 @@ import TelephoneIcon from "../../assets/icon/telephone.png";
 import { useFormik } from "formik";
 
 import { Modal } from "antd";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import check from "../../assets/icon/check.png";
 const MoveUp = () => {
   window.scrollTo({
@@ -64,8 +64,6 @@ function FloatingButton() {
     visibility: "visible",
     width: "320px",
   };
-
-  const clearInput = () => {};
 
   return (
     <div className="container floating-button-wrapper">

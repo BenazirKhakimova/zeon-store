@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useReducer, useState } from "react";
+import React, { useReducer, useRef, useState } from "react";
 import Order from "../components/CartModal/CartModal";
 import {
   CASES_GET_ABOUT_US,
@@ -185,6 +185,7 @@ const ProductsContextProvider = ({ children }) => {
     setProduct(oneProduct);
   };
 
+  
   return (
     <contextProduct.Provider
       value={{
@@ -199,7 +200,7 @@ const ProductsContextProvider = ({ children }) => {
         getValue: getValue,
         cartProduct: cartProduct,
         offer: state.offer,
-        aboutUs: state,
+        aboutUs: state.aboutUs,
         setFoundProduct,
         setGetValue,
         getProducts,
@@ -213,7 +214,7 @@ const ProductsContextProvider = ({ children }) => {
         handleChangeColor,
         handlePostOrders,
         getOffer,
-        getAboutUs,
+        getAboutUs
       }}
     >
       {children}

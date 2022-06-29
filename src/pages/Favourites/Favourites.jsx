@@ -7,6 +7,8 @@ import { favouritesContext } from "../../context/favouritesContext";
 import { contextProduct } from "../../context/productContext";
 import Card from "../../components/Card/Card";
 import "./Favourites.css";
+import CardCarousel from "../../components/CardCarousel/CardCarousel";
+import SimilarCarousel from "../../components/CardCarousel/SimilarCarousel";
 
 const Favourites = () => {
   const { favourites, getFavourites } = useContext(favouritesContext);
@@ -69,6 +71,9 @@ const Favourites = () => {
               {products.slice(0, 5).map((item) => (
                 <Card key={item.id} item={item} />
               ))}
+            </div>
+            <div className="container card-carousel-wrapper">
+              <SimilarCarousel />
             </div>
           </div>
         </div>

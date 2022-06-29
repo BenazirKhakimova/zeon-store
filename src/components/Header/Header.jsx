@@ -9,16 +9,17 @@ import whatsapp from "../../assets/icon/whatsapp (1).png";
 import telegram from "../../assets/icon/telegram (1).png";
 import phone from "../../assets/icon/telephone.png";
 import search from "../../../src/assets/icon/search.png";
-import { Drawer, Badge } from "antd";
-import { Link, useNavigate } from "react-router-dom";
+import cleare from "../../../src/assets/icon/call back.png";
+import { Drawer, Badge, Modal } from "antd";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
-import Modal from "../Modal/Modal";
 import "animate.css";
 import { favouritesContext } from "../../context/favouritesContext";
 import Search from "../Search/Search";
+// import { useFormik } from "formik";
+import { cartContext } from "../../context/cartContext";
 import { useFormik } from "formik";
 import check from "../../assets/icon/check.png";
-import { cartContext } from "../../context/cartContext";
 
 const validate = (values) => {
   const errors = {};
@@ -39,25 +40,21 @@ const validate = (values) => {
 };
 
 const Header = () => {
-  const { contacts, getContacts, products } = useContext(contextProduct);
+  const { contacts, getContacts, products, oneProduct, getValue } =
+    useContext(contextProduct);
   const { favouritesLength, getFavourites } = useContext(favouritesContext);
   const { cartLength, getCart } = useContext(cartContext);
   const { postCallBack } = useContext(contextProduct);
+  const [visible, setVisible] = useState(false);
+  const [openSearch, setOpenSearch] = useState(false);
   const novigate = useNavigate();
-
-  const [clicked, setClicked] = useState(0);
+  const pathname = useLocation();
 
   useEffect(() => {
     getContacts();
     getFavourites();
     getCart();
   }, []);
-
-  const [visible, setVisible] = useState(false);
-
-  const showDrawer = () => {
-    setVisible(true);
-  };
 
   const onClose = () => {
     setVisible(false);
@@ -72,8 +69,9 @@ const Header = () => {
       phone: "",
     },
     validate,
-    onSubmit: (values) => {
+    onSubmit: (values, { resetForm }) => {
       postCallBack(values, null, 2);
+      resetForm({ values: "" });
     },
   });
 
@@ -142,12 +140,28 @@ const Header = () => {
 
             <div className="burger-menu container">
               <div className="sm-navbar">
-                <img src={burgerMenu} alt="logo" onClick={showDrawer()} />
+                <div onClick={() => setVisible(true)}>
+                  <img src={burgerMenu} alt="logo" />
+                </div>
+
                 <Link to="/">
                   <img src={logoSmall} id="logo-small" alt="" />
                 </Link>
                 <div>
-                  <img src={search} alt="" />
+                  {openSearch ? (
+                    <img
+                      onClick={() => setOpenSearch(false)}
+                      src={cleare}
+                      alt="cleare"
+                    />
+                  ) : (
+                    <img
+                      onClick={() => setOpenSearch(true)}
+                      src={search}
+                      alt="search"
+                    />
+                  )}
+                  {openSearch ? <Search setOpenSearch={setOpenSearch} /> : null}
                 </div>
               </div>
               <Drawer
@@ -158,26 +172,38 @@ const Header = () => {
               >
                 <div className="menu-links">
                   <Link to={"/about"}>
-                    <p>О нас</p>
+                    <p onClick={() => onClose()}>О нас</p>
                   </Link>
                   <Link to={"/collection"}>
-                    <p>Коллекции </p>
+                    <p onClick={() => onClose()}>Коллекции </p>
                   </Link>
                   <Link to={"/news"}>
-                    <p>Новости </p>
+                    <p onClick={() => onClose()}>Новости </p>
                   </Link>
                   <div className="liniar"></div>
 
                   <div>
                     <Link to={"/favourites"}>
-                      <div className="menu-link">
-                        <img src={heart} alt="heart" />
+                      <div onClick={() => onClose()} className="menu-link">
+                        {favouritesLength > 0 ? (
+                          <Badge dot size="large">
+                            <img src={heart} alt="heart" />
+                          </Badge>
+                        ) : (
+                          <img src={heart} alt="heart" />
+                        )}
                         <p>Избранное</p>
                       </div>
                     </Link>
                     <Link to={"/cart"}>
-                      <div className="menu-link">
-                        <img src={shopping} alt="shopping" />
+                      <div onClick={() => onClose()} className="menu-link">
+                        {cartLength > 0 ? (
+                          <Badge dot size="large">
+                            <img src={shopping} alt="shopping" />
+                          </Badge>
+                        ) : (
+                          <img src={shopping} alt="shopping" />
+                        )}
                         <p>Корзина</p>
                       </div>
                     </Link>
@@ -186,131 +212,39 @@ const Header = () => {
 
                 <div className="menu-bottom">
                   <p>Свяжитсь с нами:</p>
-                  <a href={`tel:${item.phone3}`} className="nav-phone">
+                  <a
+                    onClick={() => onClose()}
+                    href={`tel:${item.phone3}`}
+                    className="nav-phone"
+                  >
                     <h3 style={{ color: "#979797" }}>Тел:</h3>
                     <h3>+996 000 00 00 00</h3>
                   </a>
                   <div className="back-call-links">
-                    <a target="_blank" href={item.telegram}>
+                    <a
+                      onClick={() => onClose()}
+                      target="_blank"
+                      href={item.telegram}
+                    >
                       <img src={telegram} alt="" />
                     </a>
-                    <a target="_blank" href={item.whatsapp}>
+                    <a
+                      onClick={() => onClose()}
+                      target="_blank"
+                      href={item.whatsapp}
+                    >
                       <img src={whatsapp} alt="" />
                     </a>
-                    <a target="_blank" href={item.phone}>
+                    <a
+                      onClick={() => {
+                        onClose();
+                        setModal1Visible(true);
+                      }}
+                      target="_blank"
+                      href={item.phone}
+                    >
                       <img src={phone} alt="" />
                     </a>
-                  </div>
-
-                  <div className="modal">
-                    <Modal
-                      centered
-                      visible={modal1Visible}
-                      onOk={() => setModal1Visible(false)}
-                      onCancel={() => setModal1Visible(false)}
-                      footer={null}
-                      className="first-modal"
-                      style={styleVisible}
-                    >
-                      <>
-                        <form
-                          className="fb-modal"
-                          onSubmit={formik.handleSubmit}
-                        >
-                          <div className="modal-text">
-                            <h3>Если у Вас остались вопросы</h3>
-                            <p>
-                              Оставьте заявку и мы обязательно Вам перезвоним
-                            </p>
-                          </div>
-
-                          <div className="modal-inp">
-                            <input
-                              className="first-inp placeholder type"
-                              type="text"
-                              placeholder="Как к Вам обращаться?"
-                              id="firstName"
-                              name="firstName"
-                              onChange={formik.handleChange}
-                              value={formik.values.firstName}
-                            />
-                            {formik.errors.firstName ? (
-                              <div className="error">
-                                {formik.errors.firstName}
-                              </div>
-                            ) : null}
-
-                            <input
-                              className="second-inp placeholder type"
-                              type="text"
-                              placeholder="Номер телефона"
-                              id="phone"
-                              name="phone"
-                              onChange={formik.handleChange}
-                              value={formik.values.phone}
-                            />
-                            {formik.errors.phone ? (
-                              <div className="error">{formik.errors.phone}</div>
-                            ) : null}
-
-                            {formik.errors.phone || !formik.values.phone ? (
-                              <button
-                                disabled="disabled"
-                                type="button"
-                                className="btn-modal btn-1"
-                              >
-                                Заказать Звонок
-                              </button>
-                            ) : formik.errors.firstName ||
-                              !formik.values.firstName ? (
-                              <button
-                                disabled="disabled"
-                                type="button"
-                                className="btn-modal btn-1"
-                              >
-                                Заказать Звонок
-                              </button>
-                            ) : (
-                              <button
-                                type="submit"
-                                onClick={() => {
-                                  setModal1Visible(false);
-                                  setModal2Visible(true);
-                                }}
-                                className="btn-modal btn-2"
-                              >
-                                Заказать Звонок
-                              </button>
-                            )}
-                          </div>
-                        </form>
-                      </>
-                    </Modal>
-                    <Modal
-                      centered
-                      visible={modal2Visible}
-                      onOk={() => setModal2Visible(false)}
-                      onCancel={() => setModal2Visible(false)}
-                      footer={null}
-                      className="second-modal-wrapper"
-                    >
-                      <div className="second-modal">
-                        <img src={check} alt="check" />
-                        <div className="titles-wrapper">
-                          <h3 className="fb-title">Спасибо!</h3>
-                          <h3 className="fb-sub-title">
-                            Ваша заявка была принята ожидайте, скоро Вам
-                            перезвонят
-                          </h3>
-                        </div>
-
-                        <Link to={novigate - 1}>
-                          <button className="btn-modal btn-3">
-                            Продолжить покупки
-                          </button>
-                        </Link>
-                      </div>
-                    </Modal>
                   </div>
                 </div>
               </Drawer>
@@ -318,6 +252,113 @@ const Header = () => {
           </div>
         </div>
       ))}
+
+      <div className="container">
+        <Modal
+          centered
+          visible={modal1Visible}
+          onOk={() => setModal1Visible(false)}
+          onCancel={() => setModal1Visible(false)}
+          footer={null}
+          className="first-modal"
+          style={styleVisible}
+        >
+          <>
+            <form className="fb-modal" onSubmit={formik.handleSubmit}>
+              <div className="modal-text">
+                <h3>Если у Вас остались вопросы</h3>
+                <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
+              </div>
+
+              <div className="modal-inp">
+                <input
+                  className="first-inp placeholder type"
+                  type="text"
+                  placeholder="Как к Вам обращаться?"
+                  id="firstName"
+                  name="firstName"
+                  onChange={formik.handleChange}
+                  value={formik.values.firstName}
+                />
+                {formik.errors.firstName ? (
+                  <div className="error">{formik.errors.firstName}</div>
+                ) : null}
+
+                <input
+                  className="second-inp placeholder type"
+                  type="text"
+                  placeholder="Номер телефона"
+                  id="phone"
+                  name="phone"
+                  onChange={formik.handleChange}
+                  value={formik.values.phone}
+                />
+                {formik.errors.phone ? (
+                  <div className="error">{formik.errors.phone}</div>
+                ) : null}
+
+                {formik.errors.phone || !formik.values.phone ? (
+                  <button
+                    disabled="disabled"
+                    type="button"
+                    className="btn-modal btn-1"
+                  >
+                    Заказать Звонок
+                  </button>
+                ) : formik.errors.firstName || !formik.values.firstName ? (
+                  <button
+                    disabled="disabled"
+                    type="button"
+                    className="btn-modal btn-1"
+                  >
+                    Заказать Звонок
+                  </button>
+                ) : (
+                  <button
+                    type="submit"
+                    onClick={() => {
+                      setModal1Visible(false);
+                      setModal2Visible(true);
+                    }}
+                    className="btn-modal btn-2"
+                  >
+                    Заказать Звонок
+                  </button>
+                )}
+              </div>
+            </form>
+          </>
+        </Modal>
+      </div>
+      <Modal
+        centered
+        visible={modal2Visible}
+        onOk={() => setModal2Visible(false)}
+        onCancel={() => setModal2Visible(false)}
+        footer={null}
+        id="second-modal-wrapper"
+        style={{ width: "350px" }}
+      >
+        <div className="second-modal">
+          <img src={check} alt="check" />
+          <div className="titles-wrapper">
+            <h3 className="fb-title">Спасибо!</h3>
+            <h3 className="fb-sub-title">
+              Ваша заявка была принята ожидайте, скоро Вам перезвонят
+            </h3>
+          </div>
+
+          <button
+            onClick={() => {
+              novigate(-1);
+              setModal2Visible(false);
+            }}
+            className="btn-modal btn-3"
+          >
+            Продолжить покупки
+          </button>
+        </div>
+      </Modal>
     </>
   );
 };

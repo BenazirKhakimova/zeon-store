@@ -25,6 +25,8 @@
   left: 87%;
   top: 2%;
   z-index: 10;
+  width: 24px;
+  height: 21px;
 }
 #img-fav {
   position: absolute;
@@ -32,11 +34,15 @@
   top: 2%;
   display: none;
   opacity: 1;
+  width: 24px;
+  height: 21px;
 }
 #img-discount {
   position: absolute;
   top: 0;
   left: 0;
+  width: 50px;
+  height: 50px;
 }
 
 #discount-title {
@@ -222,4 +228,9 @@
   width: 63px;
   height: 3px;
   background: #ffffff;
+}
+@media (max-width: 320px) {
+  #img-fav{
+    display: block;
+  }
 }

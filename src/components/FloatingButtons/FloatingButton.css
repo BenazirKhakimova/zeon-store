@@ -127,7 +127,7 @@
   color: #393939;
 }
 .btn-modal {
-  width: 360px;
+  width: 100%;
   height: 44px;
 
   border: none;
@@ -152,7 +152,6 @@
 }
 .btn-2:active {
   transform: translateY(2px);
-  /* background: #1d1d1bec; */
 }
 .btn-3 {
   background: #1d1d1b;
@@ -161,7 +160,6 @@
 }
 .btn-3:active {
   transform: translateY(2px);
-  /* background: #1d1d1bec; */
 }
 .second-modal {
   display: flex;
@@ -197,4 +195,26 @@
 #second-modal-wrapper {
   width: 328px !important;
   height: 264px !important;
+}
+@media (max-width: 320px) {
+  #float-buttons {
+    display: none;
+  }
+  .modal-text {
+    width: 100% !important;
+  }
+  .modal-text h3 {
+    font-size: 14px;
+  }
+  .modal-text p {
+    font-size: 12px;
+  }
+  .placeholder::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #393939;
+  }
+  .type[type="text"] {
+    padding-left: 14%;
+  }
 }

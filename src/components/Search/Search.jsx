@@ -7,7 +7,7 @@ import { useRef } from "react";
 import { useContext } from "react";
 import { contextProduct } from "../../context/productContext";
 
-const Search = () => {
+const Search = ({ setOpenSearch }) => {
   const { handleSearch, getValue, foundProduct, setGetValue, setFoundProduct } =
     useContext(contextProduct);
   const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +38,7 @@ const Search = () => {
     navigate(`/searchpage/${getValue}`);
     setIsOpen(false);
     clearInput();
+    setOpenSearch(false);
   };
 
   return (
@@ -49,7 +50,9 @@ const Search = () => {
           placeholder="Поиск"
           ref={ref}
           onChange={handleSearch}
-          onClick={() => setIsOpen(true)}
+          onClick={() => {
+            setIsOpen(true);
+          }}
           onKeyPress={(e) => {
             if (e.key === "Enter" && getValue !== "") {
               handleNavigate();
@@ -65,7 +68,7 @@ const Search = () => {
       </div>
 
       {foundProduct.length > 0 && (
-        <div style={clicked}className="data-res">
+        <div style={clicked} className="data-res">
           <div className="results">
             {foundProduct.slice(0, 15).map((item) => (
               <div
@@ -73,6 +76,7 @@ const Search = () => {
                   setIsOpen(false);
                   navigate(`/ditails/${item.id}`);
                   clearInput();
+                  setOpenSearch(false);
                 }}
                 key={item.id}
                 className="result"

@@ -9,3 +9,9 @@
 .fav-wrapper {
   margin-bottom: 64px;
 }
+@media (max-width: 320px) {
+  #favourites-subtitle{
+    display: none;
+  }
+  
+}

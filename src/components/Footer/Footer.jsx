@@ -32,6 +32,9 @@ const Footer = () => {
             <Link to={"/help"}>
               <h3>Помощь</h3>
             </Link>
+            <Link to={"/offer"}>
+              <h3 id="offer">Публичная офферта</h3>
+            </Link>
           </div>
 
           <div className="footer-item">
@@ -70,6 +73,9 @@ const Footer = () => {
       ))}
 
       <div className="developed">
+      <div className="footer-line">
+
+      </div>
         <span>Developed by Zeon 2022</span>
       </div>
     </div>

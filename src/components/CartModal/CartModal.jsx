@@ -9,7 +9,6 @@ import { contextProduct } from "../../context/productContext";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useFormik } from "formik";
-import { Field } from "formik";
 import { useEffect } from "react";
 
 const CartModal = () => {
@@ -17,7 +16,7 @@ const CartModal = () => {
   const { handlePostOrders } = useContext(contextProduct);
   const [visible, setVisible] = useState(false);
   const [modal2Visible, setModal2Visible] = useState(false);
-
+  const navigate = useNavigate();
   useEffect(() => {
     getCart();
   }, []);
@@ -56,9 +55,10 @@ const CartModal = () => {
     }
     if (values.phone) {
       errors.phone = "Заполните поле";
-    } else if (values.phone.length < 7) {
-      errors.phone = "Ваш номер пожалуйста! ";
     }
+    //  else if (values.phone.length < 7) {
+    //   errors.phone = "Ваш номер пожалуйста! ";
+    // }
     if (!values.country) {
       errors.country = "Заполните поле!";
     } else if (!/^[a-zA-Zа-яА-Я]+$/i.test(values.country)) {
@@ -122,7 +122,7 @@ const CartModal = () => {
         centered
       >
         <form onSubmit={formik.handleSubmit} className="cart-modal">
-          {formik.errors.firstName ? (
+          {formik.touched.firstName && formik.errors.firstName ? (
             <lable className="error">{formik.errors.firstName}</lable>
           ) : (
             <label className="cart-modal-label" htmlFor="name">
@@ -140,7 +140,7 @@ const CartModal = () => {
             value={formik.values.firstName}
           />
 
-          {formik.errors.lastName ? (
+          {formik.touched.lastName && formik.errors.lastName ? (
             <lable className="error">{formik.errors.lastName}</lable>
           ) : (
             <label className="cart-modal-label" htmlFor="surname">
@@ -158,7 +158,7 @@ const CartModal = () => {
             placeholder="Например Иванов"
           />
 
-          {formik.errors.email ? (
+          {formik.touched.email && formik.errors.email ? (
             <lable className="error">{formik.errors.email}</lable>
           ) : (
             <label className="email-label" htmlFor="email">
@@ -176,7 +176,7 @@ const CartModal = () => {
             placeholder="example@mail.com"
           />
 
-          {formik.errors.phone ? (
+          {formik.touched.phone && formik.errors.phone ? (
             <lable className="error">{formik.errors.phone}</lable>
           ) : (
             <label className="cart-modal-label" htmlFor="">
@@ -195,7 +195,7 @@ const CartModal = () => {
             id="phone"
           />
 
-          {formik.errors.country ? (
+          {formik.touched.country && formik.errors.country ? (
             <lable className="error">{formik.errors.country}</lable>
           ) : (
             <label className="cart-modal-label" htmlFor="country">
@@ -213,7 +213,7 @@ const CartModal = () => {
             placeholder="Страна"
           />
 
-          {formik.errors.city ? (
+          {formik.touched.city && formik.errors.city ? (
             <lable className="error">{formik.errors.city}</lable>
           ) : (
             <label className="cart-modal-label" htmlFor="city">
@@ -281,8 +281,9 @@ const CartModal = () => {
 
           <button
             onClick={() => {
-              hideModal2();
               deleteAllProducts();
+              hideModal2();
+              navigate("/");
             }}
             className="btn-modal btn-3"
           >

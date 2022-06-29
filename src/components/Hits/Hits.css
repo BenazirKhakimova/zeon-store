@@ -24,3 +24,21 @@
 .load-more {
   display: block;
 }
+.card-carousel-wrapper {
+  display: none;
+}
+@media (max-width: 320px) {
+  #hits-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .hits-card-wrapper {
+    display: none;
+  }
+  .card-carousel-wrapper {
+    display: block;
+  }
+  .hits-title-wrapper {
+    margin-top: 24spx;
+  }
+}

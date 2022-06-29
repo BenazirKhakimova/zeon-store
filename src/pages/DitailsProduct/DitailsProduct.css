@@ -2,6 +2,7 @@
   margin-top: 10px;
   display: flex;
   margin-bottom: 32px;
+  gap: 24px;
 }
 .images {
   width: 100%;
@@ -13,7 +14,6 @@
 }
 
 .images img {
-  max-width: 308px;
   width: 100%;
   max-height: 492px;
   height: 100%;
@@ -173,6 +173,7 @@
   background-color: #1d1d1b;
   padding: 12px 30px 12px 18px;
   gap: 10px;
+  border: none;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -203,6 +204,7 @@
   line-height: 17px;
   text-align: center;
   color: #ffffff;
+  border: none;
 }
 .addFavorite {
   display: flex;
@@ -230,4 +232,69 @@
 }
 .unselected-btn {
   border: none;
+}
+.one-product-carousel {
+  display: none;
+}
+.extra {
+  font-family: "Montserrat";
+}
+@media (max-width: 320px) {
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+  .extra {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .one-product-slider {
+    display: none;
+  }
+  .one-product-carousel {
+    display: block;
+  }
+  .product-description {
+    font-size: 13px;
+    line-height: 170%;
+  }
+  .productTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sum {
+    font-size: 18px;
+    line-height: 22px;
+    color: #979797;
+  }
+  .subTitle {
+    font-size: 14px;
+    line-height: 17px;
+    color: #393939;
+  }
+  .addCart {
+    font-size: 14px;
+    line-height: 17px;
+    width: 212px;
+    height: 44px;
+    padding: 0;
+  }
+  .goCart {
+    font-size: 14px;
+    line-height: 17px;
+    width: 212px;
+    height: 44px;
+    padding: 0;
+  }
+  .sumOld {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .innerInfo{
+    margin-top: -12px;
+  }
 }

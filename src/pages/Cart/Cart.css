@@ -14,11 +14,7 @@
   align-items: flex-start;
   padding: 24px;
   gap: 10px;
-
-  max-width: 384px;
-  max-height: 311px;
-  width: 100%;
-  height: 100%;
+  width: auto;
   background: #ffffff;
   position: sticky;
   top: 11px;
@@ -263,4 +259,96 @@
   border: 1px dashed #bfbfbf;
   margin-bottom: 18px;
   margin-top: 10px;
+}
+.show-info {
+  display: none !important;
+  margin: 0 0 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.show-info button {
+  display: none;
+  gap: 8px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid #ededed;
+  background-color: white;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1d1d1b;
+}
+.item-show {
+  display: none;
+}
+@media (max-width: 320px) {
+  .busket-subtitle {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .busket-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .busket {
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+  }
+  .busket-items {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .busket-item {
+    width: 100%;
+    gap: 0;
+  }
+  #dashed {
+    width: 100%;
+  }
+  .check-out-btn button {
+    width: 100%;
+  }
+  .busket-info-none {
+    display: none;
+  }
+  .show-info {
+    display: block !important;
+  }
+  .item-none {
+    display: none;
+  }
+  .item-show {
+    display: flex;
+  }
+  .show-info button {
+    display: block !important;
+  }
+  #busket-price {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #busket-discount {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .sub-title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .busket-info{
+    padding-bottom: 18px;
+  }
+  .busket-product{
+    padding: 12px 10px;
+  }
 }

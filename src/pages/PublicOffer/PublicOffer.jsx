@@ -20,12 +20,17 @@ const PublicOffer = () => {
       </div>
       <div className="container offer-body">
         {offer.map((item) => (
-          <div className="offer">
-            <p>{item.offer}</p>
-          </div>
+          <>
+            <div className="offer">
+              <p>{item.paragraph1}</p>
+              <p>{item.paragraph2}</p>
+              <p>{item.paragraph3}</p>
+              <p>{item.paragraph4}</p>
+              <p>{item.paragraph5}</p>
+            </div>
+          </>
         ))}
       </div>
-      ы
     </>
   );
 };

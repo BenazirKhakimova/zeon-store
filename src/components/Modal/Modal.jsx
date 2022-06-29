@@ -1,48 +1,66 @@
-import React, { useState } from "react";
-import phone from "../../assets/icon/telephone.png";
+// import { useFormik } from "formik";
+// import React, { useContext, useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import phone from "../../assets/icon/telephone.png";
+import check from "../../assets/icon/check.png";
+// import { contextProduct } from "../../context/productContext";
+// import TelephoneIcon from "../../assets/icon/telephone.png";
 
-const Modal = () => {
-  const [modal2Visible, setModal2Visible] = useState(false);
+// const validate = (values) => {
+//   const errors = {};
+//   if (!values.firstName) {
+//     errors.firstName = "Заполните поле!";
+//   } else if (!/^[a-zA-Zа-яА-Я]+$/i.test(values.firstName)) {
+//     errors.firstName = "Введите Ваше имя пожалуйста!";
+//   }
 
-  return (
-    <>
-      <img src={phone} alt="" onClick={() => setModal2Visible(true)} />
-      <Modal
-        centered
-        visible={modal2Visible}
-        onOk={() => setModal2Visible(false)}
-        onCancel={() => setModal2Visible(false)}
-        footer={null}
-      >
-        <div className="modal-text">
-          <h3>Если у Вас остались вопросы</h3>
-          <p>Оставьте заявку и мы обязательно Вам перезвоним</p>
-        </div>
+//   if (!values.phone) {
+//     errors.phone = "Заполните поле";
+//   } else if (
+//     !/^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/.test(values.phone)
+//   ) {
+//     errors.phone = "Введите Ваш номер пожалуйста! ";
+//   }
+//   return errors;
+// };
 
-        <div className="modal-inp">
-          <input
-            className="first-inp placeholder type"
-            type="text"
-            placeholder="Как к Вам обращаться?"
-          />
-          {/* <p>В полях дожны присутсвовать буквы!</p> */}
-          <input
-            className="second-inp placeholder type"
-            type="text"
-            placeholder="Номер телефона"
-          />
-          {/* <p>В полях дожны присутсвовать числа!</p> */}
-          <button className="btn-modal btn-1">Заказать Звонок</button>
-          {/* <button className="btn-modal btn-2">Заказать Звонок</button>
-                    <Link to={novigate - 1}>
-                      <button className="btn-modal btn-2">
-                        Продолжить покупки
-                      </button>
-                    </Link> */}
-        </div>
-      </Modal>
-    </>
-  );
-};
+// const Modal = () => {
+//   const novigate = useNavigate();
+//   const { contacts, postCallBack } = useContext(contextProduct);
 
-export default Modal;
+//   // modal
+//   const [modal1Visible, setModal1Visible] = useState(false);
+//   const [modal2Visible, setModal2Visible] = useState(false);
+
+//   const formik = useFormik({
+//     initialValues: {
+//       firstName: "",
+//       phone: "",
+//     },
+//     validate,
+//     onSubmit: (values, { resetForm }) => {
+//       postCallBack(values, null, 2);
+//       resetForm({ values: "" });
+//     },
+//   });
+
+//   let styleVisible = {
+//     visibility: "visible",
+//     width: "320px",
+//   };
+
+//   return (
+//     <>
+//       <div className="modal">
+//         <img
+//           src={TelephoneIcon}
+//           alt=""
+//           onClick={() => setModal1Visible(true)}
+//         />
+//         */}
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Modal;

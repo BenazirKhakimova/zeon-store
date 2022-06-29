@@ -37,8 +37,8 @@
   position: absolute;
   width: 250px;
   height: 18px;
-  left: 18px;
-  top: 300px;
+  left: 2%;
+  top: 80%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -46,4 +46,16 @@
   line-height: 18px;
   text-align: center;
   color: white;
+}
+.collec-card {
+  width: 286px;
+  height: 374px;
+  overflow: hidden;
+  margin-top: 18px;
+}
+@media (max-width: 320px) {
+  #collec-title {
+    font-size: 15px;
+    line-height: 18px;
+  }
 }
