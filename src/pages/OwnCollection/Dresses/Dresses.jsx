@@ -4,8 +4,8 @@ import { Link, useLocation, useSearchParams } from "react-router-dom";
 import Card from "../../../components/Card/Card";
 import ScrollToTopIntoPage from "../../../components/ScrollToTop/ScrollToTopIntoPage";
 import { contextProduct } from "../../../context/productContext";
-import CardCarousel from "../../../components/CardCarousel/CardCarousel";
 import SimilarCarousel from "../../../components/CardCarousel/SimilarCarousel";
+import Loading from "../../../components/Loading/Loading";
 const Dresses = () => {
   const { getProducts, products, productsCount } = useContext(contextProduct);
   const [searchParams, setSearchParams] = useSearchParams();
@@ -14,6 +14,13 @@ const Dresses = () => {
   );
 
   const [limit, setLimit] = useState(12);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
 
   useEffect(() => {
     getProducts();
@@ -50,7 +57,11 @@ const Dresses = () => {
     }
   };
 
-  return (
+  return isLoading ? (
+    <>
+      <Loading />
+    </>
+  ) : (
     <>
       <div className="breadcrumb-wrapper">
         <div className="container">

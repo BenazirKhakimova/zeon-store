@@ -6,6 +6,7 @@ import Card from "../../../components/Card/Card";
 import CardCarousel from "../../../components/CardCarousel/CardCarousel";
 import SimilarCarousel from "../../../components/CardCarousel/SimilarCarousel";
 import FloatingButton from "../../../components/FloatingButtons/FloatingButton";
+import Loading from "../../../components/Loading/Loading";
 import ScrollToTopIntoPage from "../../../components/ScrollToTop/ScrollToTopIntoPage";
 import { contextProduct } from "../../../context/productContext";
 
@@ -16,6 +17,14 @@ const Skirts = () => {
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
   const [limit, setLimit] = useState(12);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
   useEffect(() => {
     getProducts();
   }, []);
@@ -51,9 +60,13 @@ const Skirts = () => {
     }
   };
 
-  return (
+  return isLoading ? (
     <>
-       <div className="breadcrumb-wrapper">
+      <Loading />
+    </>
+  ) : (
+    <>
+      <div className="breadcrumb-wrapper">
         <div className="container">
           <Breadcrumb className="breadcrumb">
             <Breadcrumb.Item className="breadcrumb">
@@ -102,7 +115,6 @@ const Skirts = () => {
         <div className="container card-carousel-wrapper">
           <SimilarCarousel />
         </div>
-
       </div>
     </>
   );

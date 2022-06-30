@@ -12,7 +12,7 @@ import TelephoneIcon from "../../assets/icon/telephone.png";
 import { useFormik } from "formik";
 
 import { Modal } from "antd";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import check from "../../assets/icon/check.png";
 const MoveUp = () => {
   window.scrollTo({
@@ -133,7 +133,7 @@ function FloatingButton() {
                           onChange={formik.handleChange}
                           value={formik.values.firstName}
                         />
-                        {formik.errors.firstName ? (
+                        {formik.errors.firstName && formik.touched.firstName ? (
                           <div className="error">{formik.errors.firstName}</div>
                         ) : null}
 
@@ -146,20 +146,11 @@ function FloatingButton() {
                           onChange={formik.handleChange}
                           value={formik.values.phone}
                         />
-                        {formik.errors.phone ? (
+                        {formik.errors.phone && formik.touched.phone ? (
                           <div className="error">{formik.errors.phone}</div>
                         ) : null}
 
-                        {formik.errors.phone || !formik.values.phone ? (
-                          <button
-                            disabled="disabled"
-                            type="button"
-                            className="btn-modal btn-1"
-                          >
-                            Заказать Звонок
-                          </button>
-                        ) : formik.errors.firstName ||
-                          !formik.values.firstName ? (
+                        {formik.errors ? (
                           <button
                             disabled="disabled"
                             type="button"

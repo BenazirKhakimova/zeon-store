@@ -39,7 +39,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 165%;
-  height: 180px;
+  height: 35vh;
   overflow: hidden;
 }
 .showDesc {
@@ -48,8 +48,8 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 165%;
-  height: auto;
   overflow: hidden;
+  animation: showText 0.5s ease-in;
 }
 .news-box img {
   width: 226px;
@@ -87,5 +87,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+}
+@keyframes showText {
+  0% {
+    height: 180px;
+  }
+  50% {
+    height: 370px;
+  }
+  90% {
+    height: 600px;
+  }
+  100% {
+    height: auto;
   }
 }

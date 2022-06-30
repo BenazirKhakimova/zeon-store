@@ -6,14 +6,22 @@ import FloatingButton from "../../components/FloatingButtons/FloatingButton";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import { useContext } from "react";
 import { contextProduct } from "../../context/productContext";
+import Loading from "../../components/Loading/Loading";
 
 const News = () => {
   const [news, setNews] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [fetching, setFetching] = useState(true);
   const [totalCount, setTotalCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
 
   const { getProducts } = useContext(contextProduct);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
   useEffect(() => {
     getProducts();
   }, []);
@@ -63,7 +71,11 @@ const News = () => {
 
     setclicked(i);
   };
-  return (
+  return isLoading ? (
+    <>
+      <Loading />
+    </>
+  ) : (
     <>
       <BreadCrumb />
       <FloatingButton />
@@ -71,39 +83,26 @@ const News = () => {
         <h2 id="title">Новости</h2>
       </div>
       <div className="container news-body">
-        {news.length > 0 ? (
-          news.map((item, i) => (
-            <div className="news-box-wrapper" key={item.id}>
-              <div className="news-box">
-                <img src={item.img} alt="" />
-                <div>
-                  <h3>{item.heading}</h3>
-                  <p className={clicked === i ? "showDesc" : "closeDesc"}>
-                    {item.description}
-                  </p>
-                  <div className="hews-btn-wrapper" onClick={() => toggle(i)}>
-                    {clicked === i ? (
-                      <button>Скрыть</button>
-                    ) : (
-                      <button>Читать полностью</button>
-                    )}
-                  </div>
+        {news.map((item, i) => (
+          <div className="news-box-wrapper" key={item.id}>
+            <div className="news-box">
+              <img src={item.img} alt="" />
+              <div>
+                <h3>{item.heading}</h3>
+                <p className={clicked === i ? "showDesc" : "closeDesc"}>
+                  {item.description}
+                </p>
+                <div className="hews-btn-wrapper" onClick={() => toggle(i)}>
+                  {clicked === i ? (
+                    <button>Скрыть</button>
+                  ) : (
+                    <button>Читать полностью</button>
+                  )}
                 </div>
               </div>
             </div>
-          ))
-        ) : (
-          <div
-            className="container"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Empty />
           </div>
-        )}
+        ))}
       </div>
     </>
   );

@@ -181,6 +181,6 @@ input[type="checkbox"] {
 }
 @media (max-width: 320px) {
   .cart-modal {
-    width: 288px;
+    width: 275px;
   }
 }

@@ -19,7 +19,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 500);
   }, []);
   return isLoading ? (
     <Loading />

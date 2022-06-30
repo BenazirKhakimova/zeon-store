@@ -2,12 +2,14 @@ import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import Card from "../Card/Card";
+import Loading from "../../components/Loading/Loading";
 import CardCarousel from "../CardCarousel/CardCarousel";
 import "./Hits.css";
 const Hits = () => {
   const { getProducts, products } = useContext(contextProduct);
   const [searchParams, setSearchParams] = useSearchParams();
   const [items, setItems] = useState(8);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     getProducts();
@@ -36,7 +38,16 @@ const Hits = () => {
       visibility: "hidden",
     };
   }
-  return (
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1200);
+  }, []);
+  return isLoading ? (
+    <>
+      <Loading />
+    </>
+  ) : (
     <>
       <div className="container hits-title-wrapper">
         <h3 id="hits-title">Хит продаж</h3>

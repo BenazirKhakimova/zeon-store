@@ -1,7 +1,5 @@
 .help-wrapper {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   gap: 24px;
   margin-top: 12px;
   margin-bottom: 72px;
@@ -38,17 +36,14 @@
   align-items: center;
   color: #393939;
 }
+.content.show {
+  margin-top: 12px;
+  height: auto;
+  animation: showDesc 0.5s ease-in;
+}
 .content {
   overflow: hidden;
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-  margin-top: 12px;
-
-  /* max-height: 0; */
-  display: none;
-}
-.content.show {
-  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
-  display: block;
+  height: 0;
 }
 .content p {
   font-family: "Montserrat";
@@ -86,5 +81,19 @@
   }
   .content p {
     font-size: 12px;
+  }
+}
+@keyframes showDesc {
+  0% {
+    height: 0px;
+  }
+  50% {
+    height: 100px;
+  }
+  90% {
+    height: 200px;
+  }
+  100% {
+    height: auto;
   }
 }

@@ -1,6 +1,16 @@
 .App {
   background-color: #f8f8f8;
 }
+body::-webkit-scrollbar {
+  width: 10px !important;
+}
+body::-webkit-scrollbar-track {
+  background: #eeeeee !important;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #979797 !important;
+  border-radius: 20px !important;
+}
 .container {
   max-width: 1168px;
   box-sizing: border-box;
