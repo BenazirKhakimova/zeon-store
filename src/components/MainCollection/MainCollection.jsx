@@ -1,6 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Card } from "antd";
-import { Link } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";
 import "./MainCollection.css";
 

@@ -8,7 +8,6 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Help from "./pages/Help/Help";
 import PublicOffer from "./pages/PublicOffer/PublicOffer";
-import Loading from "./components/Loading/Loading";
 import Home from "./pages/Home/Home";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";

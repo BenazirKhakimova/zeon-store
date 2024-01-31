@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, { useReducer, useRef, useState } from "react";
-import Order from "../components/CartModal/CartModal";
+import React, { useReducer, useState } from "react";
+
 import {
   CASES_GET_ABOUT_US,
   CASES_GET_COLLECTIONS,
@@ -178,7 +178,7 @@ const ProductsContextProvider = ({ children }) => {
   const handleChangeColor = (e, oneProduct = state.oneProduct) => {
     oneProduct.currentColor = e.target.id;
     oneProduct.colors.map((color, index) => {
-      if (oneProduct.currentColor == color.color) {
+      if (oneProduct.currentColor === color.color) {
         oneProduct.currentImg = oneProduct[`image${index + 1}`];
       }
     });
