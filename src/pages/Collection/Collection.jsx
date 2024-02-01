@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Card, Empty, Pagination } from "antd";
+import { Card, Pagination } from "antd";
 import "./Collection.css";
 import { Link, useSearchParams } from "react-router-dom";
 import { contextProduct } from "../../context/productContext";

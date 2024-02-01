@@ -38,6 +38,7 @@ const INIT_STATE = {
 };
 
 const reducer = (state = INIT_STATE, action) => {
+  console.log(action);
   switch (action.type) {
     case CASES_GET_CONTACTS:
       return {

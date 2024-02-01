@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
 import { useContext } from "react";
-import img1 from "../../assets/img/about us/img1.png";
-import img2 from "../../assets/img/about us/img2.png";
-import img3 from "../../assets/img/about us/img3.png";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import Loading from "../../components/Loading/Loading";
 import { contextProduct } from "../../context/productContext";
 import "./AboutUs.css";
+
 const AboutUs = () => {
   const { getProducts, aboutUs, getAboutUs } = useContext(contextProduct);
   const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     getProducts();
     getAboutUs();

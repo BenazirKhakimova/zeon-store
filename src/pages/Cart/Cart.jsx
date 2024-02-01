@@ -14,6 +14,7 @@ import Card from "../../components/Card/Card";
 import CartModal from "../../components/CartModal/CartModal";
 import CardCarousel from "../../components/CardCarousel/CardCarousel";
 import SimilarCarousel from "../../components/CardCarousel/SimilarCarousel";
+
 function Cart() {
   const { getProducts, products } = useContext(contextProduct);
   const { cart, getCart, cartLength, deleteProductfromCart, countOfProduct } =

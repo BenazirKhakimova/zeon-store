@@ -4,10 +4,12 @@ import "./MainCollection.css";
 
 import MainColectionCard from "./MainColectionCard";
 import CollectionCarousel from "./CollectionCarousel";
+
 const MainCollection = () => {
   const { collections, getCollections } = useContext(contextProduct);
   const [items, setItems] = useState(4);
-
+  console.log(collections);
+  
   useEffect(() => {
     getCollections();
   }, []);
